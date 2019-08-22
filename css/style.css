@@ -1,0 +1,68 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+
+
+.green-btn{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    color: #354463;
+    opacity: 1;
+    text-align: center;
+    padding: 10;
+}
+
+.green-btn{
+    font: Bold 18px/22px Helvetica;
+}
+
+header{
+    top: 0px;
+    left: 0px;
+    height: 128px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 30;
+}
+
+header nav .logo{
+    top: 34px;
+    left: 160px;
+    width: 160px;
+    height: 63px;
+    text-align: left;
+    font: Bold 22px/28px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    float: left;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 20;
+    float: right;
+}
+
+header nav li{
+    float: left;
+    letter-spacing: -0.16px;
+    font: Lighter 16px/24px Helvetica;
+    display: inline;
+    padding: 0 40px 0 40px;
+    color: #354463;
+    opacity: 1;
+}
+
+header nav li a{
+    color: #354463;
+    text-decoration: none;
+}
