@@ -1,6 +1,16 @@
 body{
-    width: 80%;
+    width: 100%;
     margin: auto;
+}
+
+.regular{
+    font: lighter 16px/24px Helvetica;
+    color:#354463;
+}
+
+.bold{
+    font: Bold 22px/24px Helvetica;
+    color:#354463;
 }
 
 
@@ -19,26 +29,25 @@ body{
 }
 
 header{
-    top: 0px;
-    left: 0px;
     height: 128px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
-    padding: 30;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
 
 header nav .logo{
-    top: 34px;
-    left: 160px;
     width: 160px;
     height: 63px;
-    text-align: left;
     font: Bold 22px/28px Helvetica;
     letter-spacing: 0;
     color: #354463;
@@ -65,4 +74,55 @@ header nav li{
 header nav li a{
     color: #354463;
     text-decoration: none;
+}
+
+#banner {
+    height: 672px;
+    background: transparent url('../img/annie-spratt-135307-unsplash.png') 0% 0% no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+#banner-box{
+    width: 544px;
+    height: 416px;
+    background: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.rectangle{
+    font: lighter 14px/17px Helvetica;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    letter-spacing: 0.56px;
+    color:white;
+    background: #354463 0% 0% padding-box;
+}
+
+#banner-box .bold{
+    font: Bold 44px/56px Helvetica;
+    width: 416px;
+    height: 221px;;
+}
+
+#banner-box div{
+    position: absolute;;
+    top:220px;
+}
+
+#banner .container #banner-box p a{
+    font: lighter 16px/24px Helvetica;
+    color: #354463;
 }
