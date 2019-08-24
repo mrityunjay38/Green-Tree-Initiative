@@ -13,6 +13,11 @@ body{
     color:#354463;
 }
 
+.bolder{
+    font: Bold 44px/56px Helvetica;
+    color:#354463;
+}
+
 
 .green-btn{
     background: #C1F7D5 0% 0% no-repeat padding-box;
@@ -131,7 +136,7 @@ header nav li a{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: -55px;
+    top: -35px;
 }
 
 #mid1 .container div{
@@ -206,4 +211,83 @@ header nav li a{
     left: 33;
 }
 
+#mid3 {
+    background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
+    height: 1279px;
+    display: flex;
+}
 
+#mid3 .left{
+   display: table-caption;
+}
+
+.landscape-box{
+    width: 544px;
+    height: 232px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mid3 .box-left strong{
+    font: Bold 44px/56px Helvetica;
+    color:#354463;
+}
+#mid3 .box-left {
+    width: 280px;
+}
+
+
+#mid3 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#mid3 .left{
+    display: flex;
+    flex-direction: column;
+}
+
+#mid3 .left .green-btn{
+width: fit-content;
+}
+
+.landscape-box span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.landscape-box span .box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-right a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #C1F7D5;
+    border-radius: 100px;
+}
+
+.right{
+    height: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mid3-uni {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mid3-uni .box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
