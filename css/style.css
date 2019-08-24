@@ -3,6 +3,11 @@ body{
     margin: auto;
 }
 
+@font-face {
+    font-family: 'flood-std';
+    src: url('https://use.typekit.net/pf/typt/khwz/n4/l?subset_id=1&fvd=n4&ec_token=3bb2a6e53c9684ffdc9a9bf7185b2a6276e0698d66f4110a2ab9340afa69d4d766077cf2280e970caeacca0e54695db78a301448dd3861150fb50e40c80a0eba6808383a5b5031fda18044fa921293d018238cd0ea2f18d9d946965f33abc99a8b3bb0b6f919a1adc58beb401bf1b72b');
+  }
+
 .regular{
     font: lighter 16px/24px Helvetica;
     color:#354463;
@@ -18,6 +23,11 @@ body{
     color:#354463;
 }
 
+
+.bolder-w{
+    font: Bold 44px/56px Helvetica;
+    color:#FFFFFF;
+}
 
 .green-btn{
     background: #C1F7D5 0% 0% no-repeat padding-box;
@@ -112,6 +122,18 @@ header nav li a{
     letter-spacing: 0.56px;
     color:white;
     background: #354463 0% 0% padding-box;
+}
+
+.rectangle-w{
+    font: lighter 14px/17px Helvetica;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    letter-spacing: 0.56px;
+    color:#354463;
+    background: #FFFFFF 0% 0% padding-box;
 }
 
 #banner-box .bold{
@@ -290,4 +312,92 @@ width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+#mid4{
+    height: 720px;
+}
+
+#mid4 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#blue-box{
+    background: #354463;
+    color: #FFFFFF;
+    width: 544px;
+    height: 344px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#blue-box p{
+    font: bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    padding: 20;
+}
+
+#blue-box a{
+    font: lighter 16px/24px Helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#blue-box div{
+    width: 440px;
+}
+
+#mid4-right .rectangle{
+    position: relative;
+    top: 35px;
+    left: 69px;
+}
+
+#mid4-left{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+#mid4-left button{
+    position: relative;
+    top: 80px;
+}
+
+#mid5{
+    height: 1550px;
+    background: #354463;
+}
+
+
+#mid5 .container .regular{
+    font: lighter 72px/76px flood-std;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 847px;
+}
+
+.mid5-lorem{
+    font: Lighter 20px/32px Helvetica;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+#_1,#_2{
+    width: 448px;
+    height: 153px;
+}
+
+.mid5-upper img{
+    width: 576px;
+    height: 576px;
+}
+
+.mid5-upper, .mid5-lower{
+    display: flex;
+    justify-content: space-between;
 }
