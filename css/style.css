@@ -154,3 +154,56 @@ header nav li a{
     color:#354463;
 }
 
+#mid2{
+    background: #354463;
+    height: 1000px;
+    display: flex;
+    
+}
+
+#mid2 .rectangle{
+    background:#FFFFFF;
+    color: #354463;
+}
+
+#mid2 .container .bold{
+    font: Bold 44px/56px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.portrait-box{
+    background:#FFFFFF;
+    width: 320px;
+    height: 528px;
+}
+
+.portrait-box p{
+    width: 256px;
+}
+
+#mid2 .container strong{
+    font: Bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+   
+}
+
+#mid2 .container .portrait-box a{
+    text-decoration: none;
+    color: #354463;
+}
+
+#mid2-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#mid2-box .portrait-box div{
+    position: relative;
+    top:-30;
+    left: 33;
+}
+
+
