@@ -60,7 +60,7 @@ header {
     align-items: center;
 }
 
-header nav .logo{
+.logo{
     width: 160px;
     height: 63px;
     font: Bold 22px/28px Helvetica;
@@ -406,6 +406,10 @@ width: fit-content;
 
 #mid6{
     background: #C1F7D5;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #mid6 .container{
@@ -448,4 +452,36 @@ width: fit-content;
     display: flex;
     justify-content: space-between;
     width: 550px;
+}
+
+footer{
+    height: 370px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container div{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+footer .container div strong{
+    font: bold 14px/17px Helvetica;
+    color: #354463;
+    letter-spacing: 0.56px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+footer .container div p{
+    font: lighter 14px/17px Helvetica;
+    width: 126px;
+    color: #354463;
 }
