@@ -49,6 +49,20 @@ header{
     opacity: 1;
 }
 
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .container{
     width: 80%;
     margin: auto;
@@ -81,7 +95,7 @@ header nav li{
     letter-spacing: -0.16px;
     font: Lighter 16px/24px Helvetica;
     display: inline;
-    padding: 0 40px 0 40px;
+    padding: 0 50px 0 50px;
     color: #354463;
     opacity: 1;
 }
@@ -484,4 +498,11 @@ footer .container div p{
     font: lighter 14px/17px Helvetica;
     width: 126px;
     color: #354463;
+}
+
+
+@media all and (max-width:1024px){
+
+
+
 }
