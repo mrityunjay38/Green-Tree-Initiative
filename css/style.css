@@ -677,4 +677,52 @@ footer .container div p{
         padding: 15 30 15 30;
     }
 
+    #mid5 .container .regular {
+        width: 800px;
+        font: lighter 62px/76px flood-std;
+    }
+
+    #mid5 .container img{
+        width: 350px;
+        height: auto;
+    }
+
+    #mid5 .container #mid5-4-boxs{
+        height: -webkit-fill-available;
+    }
+
+    #mid5 .container .mid5-upper{
+        margin-bottom: 300px;
+    }
+
+    #mid5 .container #mid5-4-boxs #_1{
+        width: 350px;
+    }
+
+
+    #mid5 .container #mid5-4-boxs #_2{
+        width: 400px;
+    }
+
+    #mid5 .container button{
+        padding: 15 30 15 30;
+    }
+
+    #mid6 .container{
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    #mid6 p {
+        width: 600px;
+    }
+
+    #mid6 form {
+        width: auto;
+    }
+
+    footer .logo{
+        width: 200px;
+    }
+
 }
