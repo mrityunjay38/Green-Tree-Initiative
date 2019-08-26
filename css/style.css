@@ -745,3 +745,49 @@ footer .container div p:nth-child(4){
     }
 
 }
+
+@media all and (min-width:480px){
+
+    header{
+        height: 400px;
+    }
+
+    header .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
+    header nav {
+        flex-direction: row;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container .logo{
+        width: 250px;
+        font: Bold 35px/48px Helvetica;
+    }
+
+    header nav ul li{
+        font: Lighter 30px/44px Helvetica;
+        padding: unset;
+    }
+
+    header .container button{
+        padding: 25 300 25 300;
+        font: Bold 28px/32px Helvetica;
+    }
+
+    .rectangle{
+        font: lighter 24px/17px Helvetica;
+        width: 280px;
+        height: 80px;
+    }
+
+}
