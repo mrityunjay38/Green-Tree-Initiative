@@ -977,4 +977,80 @@ footer .container div p:nth-child(4){
         font: lighter 11px/13px Helvetica;
     }
 
+    #mid5{
+        height: 2100px;
+    }
+
+    #mid5 .container .regular {
+        width: 312px;
+        font: lighter 44px/46px flood-std;
+        text-align: center;
+    }
+
+    #mid5 .container img {
+        width: 312px;
+        height: auto;
+    }
+
+    #mid5 .container .mid5-upper {
+        flex-direction: column;
+    }
+
+    .mid5-upper #_1 .rectangle-w {
+    position: relative;
+    top: -345px;
+    left: 70;
+    }
+
+    .mid5-upper #_1 .bolder-w {
+        font: Bold 22px/28px Helvetica;
+    }
+
+    #mid5 .container #mid5-4-boxs #_1 {
+        width: 312px;
+        text-align: center;
+    }
+
+    #mid5 .container .mid5-upper {
+        margin-bottom: 250px;
+    }
+
+    #mid5 .container .mid5-lower {
+        flex-direction: column;
+    }
+
+
+    .mid5-lower #_2 .rectangle-w {
+        position: relative;
+        top: 120px;
+        left: 70;
+        }
+
+    .mid5-lower #_2 .bolder-w {
+        position: relative;
+        top: 450px;
+        font: Bold 22px/28px Helvetica;
+
+    }
+
+    #mid5 .container .mid5-lower .mid5-lorem{
+        position: relative;
+        top: 450px;
+    }
+
+    #mid5 .container .mid5-lower{
+        text-align: center;
+    }
+
+    #mid5 .container #mid5-4-boxs #_2 {
+        width: 100%;
+    }
+
+
+    #mid5 .container .mid5-lower button{
+        position: relative;
+        top: 450px;
+    }
+
+
 }
