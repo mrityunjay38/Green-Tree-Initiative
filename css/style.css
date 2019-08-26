@@ -898,6 +898,51 @@ footer .container div p:nth-child(4){
         margin-top: 50px;
     }
 
+    #mid3{
+        height: auto;
+    }
 
+
+    #mid3 .container{
+        flex-direction: column;
+    }
+
+    #mid3 .container .left p {
+        width: auto;
+    }
+
+    #mid3 .container .right{
+        justify-content: unset;
+        height: auto;
+    }
+
+    .landscape-box{
+        width: 312px;
+        height: 136px;
+        margin-bottom: 30px;
+    }
+
+    #mid3 .box-left strong {
+        font: Bold 22px/28px Helvetica;
+    }
+
+    #mid3 .box-left {
+        width: 170px;
+    }
+
+    #mid3 .box-left .regular{
+        width: 220px;
+    }
+
+    .rectangle {
+        position: relative;
+        top: 0px;
+        left: 40px;
+    }
+
+    /* #mid3 .container .right:nth-child(1) .landscape-box div #mid3-uni .box-left p:nth-child(1){
+        position: relative;
+        top: 1;
+    } */
 
 }
