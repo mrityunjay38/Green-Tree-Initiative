@@ -502,6 +502,11 @@ footer .container div p{
 
 @media all and (min-width:1440px){
 
+
+    #mid3 .container .left p{
+        display: none;
+    }
+
     header nav {
         align-items: center;
     }
@@ -511,10 +516,22 @@ footer .container div p{
         justify-content: space-around !important;
     }
 
+
 }
 
 
 @media all and (max-width:1024px){
+
+    #mid3 .container .left img{
+        display: none;
+    }
+
+    #mid3 .container .left p{
+        font: lighter 44px/46px flood-std;
+        color: #FFFFFF;
+        width: min-content;
+    }
+
 
     header nav{
         flex-direction: column;
@@ -612,6 +629,15 @@ footer .container div p{
         position: absolute;
         top: 300px;
         left: 165px;
+        padding: 15 30 15 30;
+    }
+
+    #mid3 .left{
+        position: relative;
+        top: -45px;
+    }
+
+    #mid3 .left button{
         padding: 15 30 15 30;
     }
 
