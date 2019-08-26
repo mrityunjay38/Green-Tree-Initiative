@@ -900,6 +900,7 @@ footer .container div p:nth-child(4){
 
     #mid3{
         height: auto;
+        background: transparent url(../img/did-you-know-background-m.png) 0% 0% no-repeat;
     }
 
 
@@ -944,5 +945,36 @@ footer .container div p:nth-child(4){
         position: relative;
         top: 1;
     } */
+
+    #mid4 .container #mid4-right img {
+        width: 312px;
+        height: 312px;
+    }
+
+    #mid4-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: unset;
+    }
+
+    #mid4-right {
+        margin-bottom: 100px;
+    }
+
+
+    #blue-box {
+        width: 312px;
+        height: auto;
+    }
+
+    #blue-box p {
+        font: bold 20px/28px Helvetica;
+        text-align: center;
+    }
+
+    #blue-box a {
+        font: lighter 11px/13px Helvetica;
+    }
 
 }
