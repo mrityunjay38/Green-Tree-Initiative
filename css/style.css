@@ -506,11 +506,15 @@ footer .container div p{
         align-items: center;
     }
 
+    #_1st, #_2nd{
+        display: flex;
+        justify-content: space-around !important;
+    }
 
 }
 
 
-@media all and (min-width:1024px){
+@media all and (max-width:1024px){
 
     header nav{
         flex-direction: column;
@@ -551,6 +555,64 @@ footer .container div p{
     #banner-box .bold {
         width: 570;
         height: auto;
+    }
+
+    #mid1 .container .mid1-box {
+        flex-direction: column;
+    }
+
+    #mid1 .container div{
+        justify-content: space-around;
+    }
+
+    #mid1 .container div p{
+        width: 250px;
+    }
+
+    #mid2{
+        height: auto;
+    }
+
+
+    #mid2 .container .bold {
+        width: 800px;
+    }
+
+    #mid2-box{
+        flex-direction: column;
+    }
+
+    #mid2 .container .portrait-box{
+        width: 820px;
+        height: 400px;
+        margin-bottom: 100;
+    }
+
+    #mid2 .container .portrait-box div{
+        display: flex;
+    }
+
+    #mid2 .container .portrait-box div p:nth-child(3){
+        position: absolute;
+        top: 190px;
+        right: 100px;
+        width: 310px;
+        font: lighter 20px/29px Helvetica;
+    }
+
+    #mid2 .container .portrait-box div p:nth-child(2){
+        position: relative;
+        top: 75px;
+        left: 90px;
+        font: Bold 38px/46px Helvetica;
+        letter-spacing: 1;
+    }
+
+    #mid2 .container .portrait-box div button{
+        position: absolute;
+        top: 300px;
+        left: 165px;
+        padding: 15 30 15 30;
     }
 
 }
