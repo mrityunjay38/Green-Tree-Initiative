@@ -935,7 +935,7 @@ footer .container div p:nth-child(4){
         width: 220px;
     }
 
-    .rectangle {
+    #mid3 .container .rectangle {
         position: relative;
         top: 0px;
         left: 40px;
@@ -978,7 +978,7 @@ footer .container div p:nth-child(4){
     }
 
     #mid5{
-        height: 2100px;
+        height: 2000px;
     }
 
     #mid5 .container .regular {
@@ -1051,6 +1051,46 @@ footer .container div p:nth-child(4){
         position: relative;
         top: 450px;
     }
+
+    #mid6 .container{
+        overflow: visible;
+    }
+
+    #mid6 form {
+        width: auto;
+    }
+
+    #mid6 p {
+        width: 320px;
+        font: bold 22px/28px Helvetica;
+    }
+
+    #mid6 input[type=text] {
+        width: auto;
+        font: lighter 12px/14px Helvetica;
+    }
+
+
+    footer .container {
+        margin-top: 50;
+    }
+
+    footer .logo {
+        width: 110px;
+    }
+
+    footer .container div {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    footer .container div p:nth-child(3){
+        position: absolute;
+        align-self: flex-start;
+        left: -165px;
+        top: 130px;
+    }
+
 
 
 }
