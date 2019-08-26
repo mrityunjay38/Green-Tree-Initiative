@@ -746,10 +746,10 @@ footer .container div p:nth-child(4){
 
 }
 
-@media all and (min-width:480px){
+@media screen and (max-width:376px){
 
     header{
-        height: 400px;
+        height: 50%;
     }
 
     header .container {
@@ -768,26 +768,73 @@ footer .container div p:nth-child(4){
         display: flex;
         flex-direction: column;
     }
-
+/* 
     header .container .logo{
         width: 250px;
         font: Bold 35px/48px Helvetica;
-    }
+    } */
 
     header nav ul li{
-        font: Lighter 30px/44px Helvetica;
+        /* font: Lighter 30px/44px Helvetica; */
         padding: unset;
     }
 
     header .container button{
-        padding: 25 300 25 300;
-        font: Bold 28px/32px Helvetica;
+        padding: 15 100 15 100;
+        /* font: Bold 28px/32px Helvetica; */
+    }
+
+    #banner{
+        height: 600px;
+        background: transparent url(../img/annie-spratt-135307-unsplash-m.png) 0% 0% no-repeat;
+        background-size: contain;
+    }
+
+    #banner .container img{
+        width: 180px;
+        height: auto;
     }
 
     .rectangle{
-        font: lighter 24px/17px Helvetica;
-        width: 280px;
-        height: 80px;
+        font: lighter 14px/17px Helvetica;
+        width:160px;
+        height: 40px;
+    }
+
+    #banner-box {
+        width: 312px;
+        height: 240px;
+    }
+
+    #banner-box div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: -5px;
+        top: -15;
+        width: 270px;
+        text-align: center;
+    }
+
+
+    #banner-box .bold {
+        font: Bold 22px/28px Helvetica;
+        width: 278;
+        height: auto;
+    }
+
+    #mid1 .container{
+        top: -65px;
+    }
+
+    #mid1 .container div p strong{
+    font: Bold 38px/46px Helvetica;
+    }
+
+    #mid1 .container div p {
+        width: 250px;
+        font: lighter 24px/30px Helvetica;
     }
 
 }
