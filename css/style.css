@@ -641,4 +641,40 @@ footer .container div p{
         padding: 15 30 15 30;
     }
 
+    #mid4{
+        height: auto;
+    }
+
+    #mid4 .container {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    #mid4-left {
+        left: 70px;
+        top: -70px;
+    }
+
+    #blue-box{
+        width: 760px;
+        height: auto;
+    }
+
+    #mid4-left button {
+        top: 50px;
+    }
+
+    #mid4 .container #mid4-right img{
+        width: 750px;
+        height: auto;
+    }
+
+    #blue-box div{
+        width: 660px;
+    }
+    
+    #mid4 .container button{
+        padding: 15 30 15 30;
+    }
+
 }
