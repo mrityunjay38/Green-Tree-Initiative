@@ -477,12 +477,14 @@ footer{
 footer .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer .container div{
     display: flex;
-    width: 70%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer .container div strong{
@@ -497,6 +499,10 @@ footer .container div p{
     font: lighter 14px/17px Helvetica;
     width: 126px;
     color: #354463;
+}
+
+footer .container div p:nth-child(4){
+    font: lighter 44px/46px flood-std;
 }
 
 
@@ -514,6 +520,10 @@ footer .container div p{
     #_1st, #_2nd{
         display: flex;
         justify-content: space-around !important;
+    }
+
+    footer .logo{
+        width: 200;
     }
 
 
@@ -723,6 +733,15 @@ footer .container div p{
 
     footer .logo{
         width: 200px;
+    }
+
+    footer .container div{
+        flex-wrap: wrap;
+        width: 45%;
+    }
+
+    footer .container{
+        align-items: normal;
     }
 
 }
