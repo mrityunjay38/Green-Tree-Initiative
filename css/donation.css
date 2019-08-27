@@ -1,0 +1,125 @@
+@import "style.css";
+
+
+header{
+    display: unset;
+}
+
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+h2{
+    text-align: left;
+    font: Bold 28px/36px Helvetica;
+}
+
+h3{
+    font: lighter 72px/76px flood-std;
+    letter-spacing: 0;
+    width: 384px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .logo {
+    width: 55vh;
+    height: auto;
+    text-align: center;
+}
+
+section{
+    background: transparent url('../img/annie-spratt-427340-unsplash-donation-d.png') 0% 0% no-repeat;
+    background-size: cover;
+    height: 950px;
+    color: #FFFFFF;
+}
+
+
+form{
+    background: #354463;
+    width: 640px;
+    height: 850px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+form .form-upper,.form-lower{
+    width: 80%;
+    height: auto;
+}
+
+form p{
+    font: lighter 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+form .form-upper .row-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .form-upper .row-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .form-lower .row-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+form .form-lower .row-8{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input[type=text], select {
+    background: #354463;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    padding-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+select::-ms-expand { display: block; }
+
+
+::-webkit-input-placeholder {
+    font: Lighter 16px/22px Helvetica;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    opacity: 0.2;
+  }
+
+  form .form-lower a{
+      color: #C1F7D5;
+      text-decoration: underline;
+      font: lighter 16px/56px Helvetica;
+      letter-spacing: -0.16px;
+  }
+
+  form .form-lower button{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+footer{
+    height: auto;
+}
