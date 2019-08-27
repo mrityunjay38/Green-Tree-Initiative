@@ -504,8 +504,6 @@ footer .container div p{
 footer .container div p:nth-child(4){
     font: lighter 44px/46px flood-std;
 }
-
-
 @media all and (min-width:1440px){
 
 
@@ -545,6 +543,7 @@ footer .container div p:nth-child(4){
 
     header nav{
         flex-direction: column;
+        width: auto;
     }
 
     header nav ul{
@@ -560,12 +559,13 @@ footer .container div p:nth-child(4){
     #banner{
         height: 920px;
         background: transparent url(../img/annie-spratt-135307-unsplash-t.png) 0% 0% no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     #banner .container{
         flex-direction: column-reverse;
     }
+
 
     #banner-box{
         width: 820px;
@@ -744,7 +744,285 @@ footer .container div p:nth-child(4){
         align-items: normal;
     }
 
+} 
+
+/*--------------xxxxxxxxx-------------xxxxxxxxxxx----------------*/
+/*
+@media all and (max-width:768px){
+
+    #mid3 .container .left img{
+        display: none;
+    }
+
+    #mid3 .container .left p{
+        font: lighter 44px/46px flood-std;
+        color: #FFFFFF;
+        width: min-content;
+    }
+
+
+    header nav{
+        flex-direction: column;
+        width: auto;
+    }
+
+    header nav ul{
+        margin: -20;
+        padding: 20;
+    }
+
+    header nav li{
+        padding: 0 60 0 0;
+    }
+
+
+    #banner{
+        height: 670px;
+        background: transparent url(../img/annie-spratt-135307-unsplash-t.png) 0% 0% no-repeat;
+        background-size: contain;
+    }
+
+    #banner .container{
+        flex-direction: column-reverse;
+    }
+
+    #banner .container img{
+        width: 180px;
+        height: auto;
+    }
+
+
+    #banner-box{
+        width: 640px;
+        height: 300px;
+        margin: 100 0 0 0;
+    }
+
+    #banner-box div{
+        width: 570px;
+        position: relative;
+        top: -30;
+    }
+
+    #banner-box .bold {
+        width: 570;
+        height: auto;
+    }
+
+    #banner-box .bold {
+        font: Bold 36px/46px Helvetica;
+    }
+
+    #mid1 .container .mid1-box {
+        flex-direction: column;
+    }
+
+    #mid1 .container div{
+        justify-content: space-between;
+    }
+
+    #mid1 .container div p{
+        width: 250px;
+    }
+
+    #mid2{
+        height: auto;
+    }
+
+    #mid2 .container{
+        overflow: visible;
+    }
+
+
+    #mid2 .container .bold {
+        width: 650px;
+        font: Bold 36px/46px Helvetica;
+    }
+
+    #mid2-box{
+        flex-direction: column;
+    }
+
+    #mid2 .container .portrait-box{
+        width: 640px;
+        height: 280px;
+        margin-bottom: 100;
+    }
+
+    #mid2 .container .portrait-box div{
+        display: flex;
+    }
+
+    #mid2 .container .portrait-box div img{
+        width: 280px;
+        height: auto;
+    }
+
+    #mid2 .container .portrait-box div p:nth-child(3){
+        position: absolute;
+        top: 140px;
+        right: 60px;
+        width: 250px;
+        font: lighter 16px/24px Helvetica;
+    }
+
+    #mid2 .container .portrait-box div p:nth-child(2) strong{
+        font: Bold 22px/28px Helvetica;
+    }
+
+    #mid2 .container .portrait-box div p:nth-child(2){
+        position: relative;
+        top: 50px;
+        left: 50px;
+        font: Bold 22px/28px Helvetica;
+        letter-spacing: 1;
+        width: 200px;
+    }
+
+    #mid2 .container .portrait-box div button{
+        position: absolute;
+        top: 230px;
+        left: 130px;
+        padding: 10 30 10 30;
+    }
+
+    #mid3 .container .right .landscape-box {
+        width: 380px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    #mid3 .container .right{
+        height: auto;
+    }
+
+    #mid3 .left{
+        position: relative;
+        top: -45px;
+    }
+
+    #mid3 .box-left strong {
+        font: Bold 36px/46px Helvetica;
+    }
+
+    #mid3 .left button{
+        padding: 15 30 15 30;
+    }
+
+    #mid4{
+        height: auto;
+    }
+
+    #mid4 .container {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    #mid4 .container #mid4-right img {
+        width: 90%;
+    }
+
+    #blue-box p {
+        font: bold 22px/28px Helvetica;
+    }
+
+    #mid4-left {
+        left: 70px;
+        top: -70px;
+    }
+
+    #blue-box{
+        width: 550px;
+        height: auto;
+    }
+
+    #mid4-left button {
+        top: 50px;
+    }
+
+
+    #blue-box div{
+        width: 660px;
+    }
+    
+    #mid4 .container button{
+        padding: 15 30 15 30;
+    }
+    
+    #mid5{
+        height: 1100px;
+    }
+
+    #mid5 .container .regular {
+        width: auto;
+        font: lighter 44px/46px flood-std;
+    }
+
+    #mid5 .container img{
+        width: 280px;
+        height: auto;
+    }
+
+    #mid5 .bolder-w {
+        font: bold 28px/36px Helvetica;
+    }
+
+    #mid5 .mid5-lorem {
+        font: Lighter 16px/22px Helvetica;
+    }
+
+    #mid5 .container #mid5-4-boxs{
+        height: -webkit-fill-available;
+    }
+
+    #mid5 .container .mid5-upper{
+        margin-bottom: 200px;
+    }
+
+    #mid5 .container #mid5-4-boxs #_1{
+        width: 280px;
+    }
+
+
+    #mid5 .container #mid5-4-boxs #_2{
+        width: 280px;
+    }
+
+    #mid5 .container button{
+        padding: 15 30 15 30;
+    }
+
+    #mid6 .container{
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    #mid6 p {
+        width: 450px;
+        font: bold 22px/28px Helvetica;
+    }
+
+    #mid6 form {
+        width: auto;
+    }
+
+    footer .logo{
+        width: 170px;
+    }
+
+    footer .container div{
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    footer .container{
+        align-items: normal;
+        justify-content: space-evenly;
+    }
+
 }
+*/
+/*--------------xxxxxxxxx-------------xxxxxxxxxxx----------------*/
 
 @media screen and (max-width:376px){
 
