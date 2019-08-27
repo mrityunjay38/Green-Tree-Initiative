@@ -121,9 +121,6 @@ select::-ms-expand { display: block; }
     padding-left: 50px;
   }
 
-footer{
-    height: auto;
-}
 
 
 /*-----------xxxxxx---------xxxxxx---------------*/
@@ -157,15 +154,65 @@ footer{
     }
 
 
-    footer .container div{
-        flex-wrap: wrap;
-        width: 55%;
+}
+
+@media screen and (max-width:376px){
+
+    header .logo {
+        width: 15rem;
     }
 
-    footer .container{
-        align-items: unset;
+    h2{
+        font: Bold 22px/28px Helvetica;
     }
 
 
+    h3 {
+        font: lighter 32px/46px flood-std;
+        width: 20rem;
+    }
 
+    form p{
+        font: lighter 11px/13px Helvetica;
+    }
+
+    ::-webkit-input-placeholder {
+        font: Lighter 14px/20px Helvetica;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+        opacity: 0.2;
+      }
+
+    form input[type=text], select{
+        border-bottom: 1px solid #C1F7D5;
+        width: 92%;
+    }
+
+    select{
+        border-bottom: 1px solid #C1F7D5;
+        width: 80%;
+    }
+
+    form .form-upper, .form-lower {
+        width: 40%;
+    }
+
+    form h2{
+        font: Bold 18px/22px Helvetica;
+    }
+
+    form .form-lower .row-8 {
+        flex-direction: column-reverse;
+    }
+
+    form .form-lower button{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    form .form-lower a {
+        font: lighter 14px/24px Helvetica;
+    }
+
+    
 }
