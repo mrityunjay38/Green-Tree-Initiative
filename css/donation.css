@@ -6,7 +6,6 @@ header{
 }
 
 
-
 header nav{
     display: flex;
     justify-content: space-around;
@@ -34,9 +33,10 @@ h3{
 }
 
 header .logo {
-    width: 55vh;
+    width: 15rem;
     height: auto;
     text-align: center;
+    font: Bold 22px/36px Helvetica;
 }
 
 section{
@@ -97,6 +97,7 @@ form input[type=text], select {
     border-bottom: 2px solid #C1F7D5;
     padding-bottom: 1rem;
     color: #FFFFFF;
+    width: 100%;
 }
 
 select::-ms-expand { display: block; }
@@ -125,6 +126,27 @@ select::-ms-expand { display: block; }
 
 /*-----------xxxxxx---------xxxxxx---------------*/
 
+@media screen and (max-width:1440px){
+
+
+    .form-upper .row-1 .col-1,.col-2 input[type=text]{
+        width: 15rem;
+    }
+
+    .form-upper .row-3 .col-1,.col-3 input[type=text]{
+        width: 12rem;
+    }
+
+    .form-upper .row-3 select{
+        width: 5rem;
+    }
+
+    .form-lower .row-6 input[type=text]{
+        width: 8rem;
+    }
+
+}
+
 @media screen and (max-width:768px){
 
 
@@ -151,6 +173,22 @@ select::-ms-expand { display: block; }
 
     form{
         padding-bottom: 40px;
+    }
+
+    .form-upper .row-1 .col-1,.col-2 input[type=text]{
+        width: 15rem;
+    }
+
+    .form-upper .row-3 .col-1,.col-3 input[type=text]{
+        width: 12rem;
+    }
+
+    .form-upper .row-3 select{
+        width: 5rem;
+    }
+
+    .form-lower .row-6 input[type=text]{
+        width: 8rem;
     }
 
 
@@ -183,16 +221,7 @@ select::-ms-expand { display: block; }
         opacity: 0.2;
       }
 
-    form input[type=text], select{
-        border-bottom: 1px solid #C1F7D5;
-        width: 92%;
-    }
-
-    select{
-        border-bottom: 1px solid #C1F7D5;
-        width: 80%;
-    }
-
+  
     form .form-upper, .form-lower {
         width: 40%;
     }
@@ -212,6 +241,22 @@ select::-ms-expand { display: block; }
 
     form .form-lower a {
         font: lighter 14px/24px Helvetica;
+    }
+
+    .form-upper .row-1 .col-1,.col-2 input[type=text]{
+        width: 7rem;
+    }
+
+    .form-upper .row-3 .col-1,.col-3 input[type=text]{
+        width: 5rem;
+    }
+
+    .form-upper .row-3 select{
+        width: 3rem;
+    }
+
+    .form-lower .row-6 input[type=text]{
+        width: 4rem;
     }
 
     
