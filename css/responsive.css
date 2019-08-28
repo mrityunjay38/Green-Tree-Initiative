@@ -10,13 +10,28 @@
         align-items: center;
     }
 
+
+    header nav li{
+        padding: 0 50 0 50;
+    }
+
+    #mid4 #mid4-right img{
+        width: 40vw;
+    }
+
+    #mid4 #blue-box{
+        width: 40vw;
+        height: 25vw;
+    }
+    
+
     #_1st, #_2nd{
         display: flex;
         justify-content: space-around !important;
     }
 
     footer .logo{
-        width: 200;
+        width: 15%;
     }
 
 
@@ -24,6 +39,10 @@
 
 
 @media all and (max-width:1024px){
+
+    header .logo{
+        width: 170px;
+    }
 
     #mid3 .container .left img{
         display: none;
@@ -42,19 +61,18 @@
     }
 
     header nav ul{
-        margin: -20;
-        padding: 20;
+        margin-left: -20px;
     }
 
     header nav li{
-        padding: 0 60 0 0;
+        padding:0 50 0 0;
     }
 
 
     #banner{
-        height: 920px;
+        height: auto;
         background: transparent url(../img/annie-spratt-135307-unsplash-t.png) 0% 0% no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     #banner .container{
@@ -63,19 +81,18 @@
 
 
     #banner-box{
-        width: 820px;
-        height: 380px;
+        width: 100%;
+        height: auto;
         margin: 100 0 0 0;
     }
 
     #banner-box div{
-        width: 570px;
         position: relative;
-        top: -50;
+        top: -55;
     }
 
     #banner-box .bold {
-        width: 570;
+        width: 100%;
         height: auto;
     }
 
@@ -87,18 +104,15 @@
         justify-content: space-around;
     }
 
-    #mid1 .container div p{
-        width: 250px;
-    }
 
     #mid2{
         height: auto;
     }
 
 
-    #mid2 .container .bold {
+    /* #mid2 .container .bold {
         width: 800px;
-    }
+    } */
 
     #mid2-box{
         flex-direction: column;
@@ -161,7 +175,7 @@
     }
 
     #blue-box{
-        width: 760px;
+        width: 70vw;
         height: auto;
     }
 
@@ -169,10 +183,15 @@
         top: 50px;
     }
 
+    #mid4 #mid4-right img {
+        width: 70vw;
+    }
+
+/* 
     #mid4 .container #mid4-right img{
         width: 750px;
         height: auto;
-    }
+    } */
 
     #blue-box div{
         width: 660px;
@@ -187,40 +206,24 @@
         font: lighter 62px/76px flood-std;
     }
 
-    #mid5 .container img{
+    /* #mid5 .container img{
         width: 350px;
         height: auto;
-    }
+    } */
 
-    #mid5 .container #mid5-4-boxs{
+    /* #mid5 .container #mid5-4-boxs{
         height: -webkit-fill-available;
-    }
+    } */
 
-    #mid5 .container .mid5-upper{
-        margin-bottom: 300px;
-    }
-
-    #mid5 .container #mid5-4-boxs #_1{
-        width: 350px;
-    }
-
-
-    #mid5 .container #mid5-4-boxs #_2{
-        width: 400px;
-    }
-
-    #mid5 .container button{
-        padding: 15 30 15 30;
-    }
 
     #mid6 .container{
         flex-direction: column;
         align-items: normal;
     }
 
-    #mid6 p {
+    /* #mid6 p {
         width: 600px;
-    }
+    } */
 
     #mid6 form {
         width: auto;
@@ -538,17 +541,23 @@
         flex-direction: column;
     }
 
+    header .logo {
+        width: 50%;
+        font: Bold 1.2em/1.4em Helvetica;
+    }
+
     
     header nav {
         flex-direction: row;
         margin-bottom: 5%;
         align-items: center;
-        width: 20rem;
+        width: auto;
     }
 
     header nav ul {
         display: flex;
         flex-direction: column;
+        padding: unset;
     }
 /* 
     header .container .logo{
@@ -559,17 +568,24 @@
     header nav ul li{
         /* font: Lighter 30px/44px Helvetica; */
         padding: unset;
+        font: Lighter 1em/1em Helvetica;
     }
 
     header .container button{
-        padding: 15 100 15 100;
+        width: 75vw;
+        /* padding: 15 100 15 100; */
         /* font: Bold 28px/32px Helvetica; */
     }
 
     #banner{
-        height: 600px;
         background: transparent url(../img/annie-spratt-135307-unsplash-m.png) 0% 0% no-repeat;
-        background-size: contain;
+        background-size: cover;
+        padding: unset;
+        height: auto;
+    }
+
+    #banner .container{
+        padding: 50 0 50 0;
     }
 
     #banner .container img{
@@ -577,11 +593,6 @@
         height: auto;
     }
 
-    .rectangle{
-        font: lighter 14px/17px Helvetica;
-        width:160px;
-        height: 40px;
-    }
 
     #banner-box {
         width: 312px;
@@ -618,12 +629,15 @@
         width: 250px;
         font: lighter 14px/20px Helvetica;
     }
+    
+    #mid2{
+        padding: 20 0 0 0;
+    }
 
     #mid2 .container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
     }
 
     #mid2 .container .bold {
@@ -676,13 +690,11 @@
         padding: 10 30 10 30;
     }
 
-    #mid2-box{
-        margin-top: 50px;
-    }
 
     #mid3{
-        height: auto;
         background: transparent url(../img/did-you-know-background-m.png) 0% 0% no-repeat;
+        background-size: auto 100%;
+        background-position: -150px -30px;
     }
 
 
@@ -694,15 +706,13 @@
         width: auto;
     }
 
-    #mid3 .container .right{
+    /* #mid3 .container .right{
         justify-content: unset;
         height: auto;
-    }
+    } */
 
     .landscape-box{
-        width: 312px;
-        height: 136px;
-        margin-bottom: 30px;
+        width: auto;
     }
 
     #mid3 .box-left strong {
@@ -710,23 +720,32 @@
     }
 
     #mid3 .box-left {
-        width: 170px;
+        width: 55%;
     }
 
-    #mid3 .box-left .regular{
-        width: 220px;
-    }
 
-    #mid3 .container .rectangle {
-        position: relative;
-        top: 0px;
-        left: 40px;
+    #mid3 .right #did-you-know-stamp{
+        display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    bottom: 15px;
     }
 
     /* #mid3 .container .right:nth-child(1) .landscape-box div #mid3-uni .box-left p:nth-child(1){
         position: relative;
         top: 1;
     } */
+
+
+    #mid4{
+        padding: 0 0 50 0;
+    }
+
+
+    #mid4 .container {
+        align-items: center;
+    }
 
     #mid4 .container #mid4-right img {
         width: 312px;
@@ -759,8 +778,9 @@
         font: lighter 11px/13px Helvetica;
     }
 
-    #mid5{
-        height: 2000px;
+
+    #mid5 .container {
+        padding-bottom: 150;
     }
 
     #mid5 .container .regular {
@@ -793,8 +813,14 @@
         text-align: center;
     }
 
-    #mid5 .container .mid5-upper {
-        margin-bottom: 250px;
+    .mid5-lower #_2 .rectangle-w {
+        position: relative;
+        z-index: 1;
+    }
+
+    .mid5-lower img{
+        position: relative;
+        bottom: 320;
     }
 
     #mid5 .container .mid5-lower {
@@ -822,6 +848,7 @@
 
     #mid5 .container .mid5-lower{
         text-align: center;
+        margin: 0 0 0 0;
     }
 
     #mid5 .container #mid5-4-boxs #_2 {
@@ -833,6 +860,7 @@
         position: relative;
         top: 450px;
     }
+
 
     #mid6 .container{
         overflow: visible;
@@ -872,7 +900,5 @@
         left: -165px;
         top: 130px;
     }
-
-
 
 }

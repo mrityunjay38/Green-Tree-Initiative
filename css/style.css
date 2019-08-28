@@ -25,7 +25,7 @@ body{
 
 
 .bolder-w{
-    font: Bold 44px/56px Helvetica;
+    font: Bold 2em/1.4em Helvetica;
     color:#FFFFFF;
 }
 
@@ -37,14 +37,15 @@ body{
     opacity: 1;
     text-align: center;
     padding: 10;
-    font: Bold 18px/22px Helvetica;
+    font: Bold 1.2em/1.2em Helvetica;
     border-style: solid;
     border: none;
 }
 
 
 header{
-    height: 128px;
+    height: auto;
+    padding: 20;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -74,9 +75,9 @@ header {
 }
 
 .logo{
-    width: 160px;
-    height: 63px;
-    font: Bold 22px/28px Helvetica;
+    width: 18%;
+    height: auto;
+    font: Bold 1.4em/1.4em Helvetica;
     letter-spacing: 0;
     color: #354463;
     opacity: 1;
@@ -87,14 +88,16 @@ header nav ul{
     margin: 0;
     padding: 20;
     float: right;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav li{
     float: left;
     letter-spacing: -0.16px;
-    font: Lighter 16px/24px Helvetica;
+    font: Lighter 1em/1em Helvetica;
     display: inline;
-    padding: 0 50px 0 50px;
+    padding: 0 50 0 50;
     color: #354463;
     opacity: 1;
 }
@@ -105,15 +108,16 @@ header nav li a{
 }
 
 #banner {
-    height: 672px;
+    height: auto;
     background: transparent url('../img/annie-spratt-135307-unsplash.png') 0% 0% no-repeat;
-    background-size: contain;
+    background-size: cover;
+    padding: 100;
     display: flex;
 }
 
 #banner-box{
-    width: 544px;
-    height: 416px;
+    width: 50%;
+    height: auto;
     background: #FFFFFF;
     opacity: 1;
     display: flex;
@@ -123,20 +127,23 @@ header nav li a{
 
 #banner .container{
     display: flex;
-    justify-content: space-around;
-    align-items: start;
+    justify-content: space-between;
+    align-items: end;
+    width: 90%;
 }
 
 .rectangle{
-    font: lighter 14px/17px Helvetica;
+    font: lighter 1em/1em Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 160px;
-    height: 40px;
+    width: 10em;
+    height: auto;
     letter-spacing: 0.56px;
     color:white;
+    padding: 15;
     background: #354463 0% 0% padding-box;
+    text-transform: uppercase;
 }
 
 .rectangle-w{
@@ -144,22 +151,24 @@ header nav li a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 160px;
-    height: 40px;
+    width: 10em;
+    height: auto;
     letter-spacing: 0.56px;
     color:#354463;
     background: #FFFFFF 0% 0% padding-box;
+    text-transform: uppercase;
+    padding: 15;
 }
 
 #banner-box .bold{
-    font: Bold 44px/56px Helvetica;
+    font: Bold 2.1em/1.4em Helvetica;
     width: 416px;
-    height: 221px;;
+    height: auto;
 }
 
 #banner-box div{
-    position: absolute;;
-    top:220px;
+    width:80%;
+    padding: 20;
 }
 
 #banner .container #banner-box p a{
@@ -176,6 +185,10 @@ header nav li a{
     top: -35px;
 }
 
+/* #mid1 .container .rectangle{
+width: 15%;
+} */
+
 #mid1 .container div{
     display: flex;
     width: 100%;
@@ -191,33 +204,36 @@ header nav li a{
 
 
 #mid1 .container div p {
-    width: 230px;
+    width: 18vw;
     font: lighter 16px/24px Helvetica;
     color:#354463;
 }
 
 #mid2{
     background: #354463;
-    height: 1000px;
+    height: auto;
+    padding: 100;
     display: flex;
+    padding: 100 0 100 0;
     
 }
 
 #mid2 .rectangle{
     background:#FFFFFF;
     color: #354463;
+
 }
 
 #mid2 .container .bold{
-    font: Bold 44px/56px Helvetica;
+    font: Bold 2.8em/4rem Helvetica;
     letter-spacing: 0;
     color: #FFFFFF;
 }
 
 .portrait-box{
     background:#FFFFFF;
-    width: 320px;
-    height: 528px;
+    width: 28%;
+    height: auto;
 }
 
 .portrait-box p{
@@ -250,8 +266,9 @@ header nav li a{
 
 #mid3 {
     background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
-    height: 1279px;
+    height: auto;
     display: flex;
+    padding: 100 0 100 0;
 }
 
 #mid3 .left{
@@ -259,12 +276,13 @@ header nav li a{
 }
 
 .landscape-box{
-    width: 544px;
-    height: 232px;
+    height: 12em;
+    width: 40vw;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 0 50 0;
 }
 
 #mid3 .box-left strong{
@@ -272,7 +290,7 @@ header nav li a{
     color:#354463;
 }
 #mid3 .box-left {
-    width: 280px;
+    width: 70%;
 }
 
 
@@ -312,7 +330,7 @@ width: fit-content;
 }
 
 .right{
-    height: 1000;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -330,7 +348,8 @@ width: fit-content;
 }
 
 #mid4{
-    height: 720px;
+    height: auto;
+    padding: 50 0 100 0;
 }
 
 #mid4 .container{
@@ -342,15 +361,15 @@ width: fit-content;
 #blue-box{
     background: #354463;
     color: #FFFFFF;
-    width: 544px;
-    height: 344px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 #blue-box p{
-    font: bold 28px/36px Helvetica;
+    font: bold 1.8em/1.5em Helvetica;
     letter-spacing: 0;
     padding: 20;
 }
@@ -363,7 +382,7 @@ width: fit-content;
 }
 
 #blue-box div{
-    width: 440px;
+    width: auto;
 }
 
 #mid4-right .rectangle{
@@ -372,28 +391,33 @@ width: fit-content;
     left: 69px;
 }
 
+#mid4 #mid4-right img{
+    width: 50vw;
+}
+
 #mid4-left{
     position: relative;
-    left: 50px;
-    top: 40px;
+    left: 50;
+    top: 40;
 }
 
 #mid4-left button{
     position: relative;
-    top: 80px;
+    bottom:-50;
 }
 
 #mid5{
-    height: 1550px;
+    height: auto;
     background: #354463;
+    padding: 50 0 100 0;
 }
 
 
 #mid5 .container .regular{
-    font: lighter 72px/76px flood-std;
+    font: lighter 4.5em/1.2em flood-std;
     letter-spacing: 0;
     color: #FFFFFF;
-    width: 847px;
+    width: 80%;
 }
 
 .mid5-lorem{
@@ -403,26 +427,33 @@ width: fit-content;
 }
 
 #_1,#_2{
-    width: 448px;
-    height: 153px;
+    width: 30vw;
+    height: auto;
 }
 
 .mid5-upper img{
-    width: 576px;
-    height: 576px;
+    width: 40vw;
+    height: 40vw;
+}
+
+.mid5-lower img{
+    width: 40vw;
+    height: 40vw;
 }
 
 .mid5-upper, .mid5-lower{
     display: flex;
     justify-content: space-between;
+    margin: 100 0 0 0;
 }
 
 #mid6{
     background: #C1F7D5;
-    height: 200px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50 0 50 0;
 }
 
 #mid6 .container{
@@ -432,19 +463,19 @@ width: fit-content;
 }
 
 #mid6 p{
-    font: bold 28px/36px Helvetica;
+    font: bold 2em/1.2em Helvetica;
     letter-spacing: 0;
     color: #354463;
-    width: 544px;
+    width: 60%;
 }
 
 #mid6 input[type=text]{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 100px;
     padding: 10px;
-    width: 70%;
+    width: 65%;
     color: #354463;
-    font: lighter 18px/22px Helvetica;
+    font: lighter 1em/1em Helvetica;
     border-style: solid;
     border: none;
 }
@@ -454,7 +485,7 @@ width: fit-content;
     border-radius: 100px;
     padding: 10px;
     color: #C1F7D5;
-    font: bold 18px/22px Helvetica;
+    font: bold 1.2em/1em Helvetica;
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
@@ -464,14 +495,15 @@ width: fit-content;
 #mid6 form{
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 45%;
 }
 
 footer{
-    height: 370px;
+    height: auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 50 0 50 0;
 }
 
 footer .container{
@@ -482,7 +514,7 @@ footer .container{
 
 footer .container div{
     display: flex;
-    width: 80%;
+    width: 75%;
     justify-content: space-around;
     align-items: center;
 }
@@ -496,11 +528,11 @@ footer .container div strong{
 }
 
 footer .container div p{
-    font: lighter 14px/17px Helvetica;
-    width: 126px;
+    font: lighter 1em/1.5em Helvetica;
+    width: 10rem;
     color: #354463;
 }
 
 footer .container div p:nth-child(4){
-    font: lighter 34px/46px flood-std;
+    font: lighter 2.5em/1.2em flood-std;
 }
