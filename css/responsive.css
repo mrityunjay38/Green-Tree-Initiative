@@ -1,177 +1,165 @@
-
-@media all and (min-width:1440px){
-
-
-    #mid3 .container .left p{
-        display: none;
-    }
+@media screen and (max-width:768px){
 
     header nav {
-        align-items: center;
-    }
-
-
-    header nav li{
-        padding: 0 50 0 50;
-    }
-
-    #mid4 #mid4-right img{
-        width: 40vw;
-    }
-
-    #mid4 #blue-box{
-        width: 40vw;
-        height: 25vw;
-    }
-    
-
-    #_1st, #_2nd{
-        display: flex;
-        justify-content: space-around !important;
-    }
-
-    footer .logo{
-        width: 15%;
-    }
-
-
-}
-
-
-@media all and (max-width:1024px){
-
-    header .logo{
-        width: 170px;
-    }
-
-    #mid3 .container .left img{
-        display: none;
-    }
-
-    #mid3 .container .left p{
-        font: lighter 44px/46px flood-std;
-        color: #FFFFFF;
-        width: min-content;
-    }
-
-
-    header nav{
         flex-direction: column;
+        align-items: unset;
+    }
+
+    .logo{
+        font: Bold 2.5vw/3vw Helvetica;
+        width: 19vw;
+    }
+
+    ul{
+        padding: 0;
+        width: 70%;
+    }
+
+    a{
+        font: Lighter 1.5vw/1vw Helvetica;
+    }
+
+    .green-btn{
+        font: bold 2vw/5vw Helvetica;
+        padding: 0 20 0 20;
+    }
+
+    .rectangle {
+        width: 15vw;
+    }
+
+    #banner {
+        padding: 50;
+    }
+
+    #banner-box {
         width: auto;
     }
 
-    header nav ul{
-        margin-left: -20px;
-    }
-
-    header nav li{
-        padding:0 50 0 0;
-    }
-
-
-    #banner{
-        height: auto;
-        background: transparent url(../img/annie-spratt-135307-unsplash-t.png) 0% 0% no-repeat;
-        background-size: cover;
-    }
-
-    #banner .container{
+    #banner .container {
         flex-direction: column-reverse;
+        overflow: visible;
+    }
+
+    #banner img{
+        padding-bottom: 10vw;
+    }
+
+    #banner .container #banner-box p a {
+        font: lighter 2vw/4vw Helvetica;
     }
 
 
-    #banner-box{
-        width: 100%;
-        height: auto;
-        margin: 100 0 0 0;
-    }
 
-    #banner-box div{
-        position: relative;
-        top: -55;
-    }
 
-    #banner-box .bold {
-        width: 100%;
-        height: auto;
-    }
-
-    #mid1 .container .mid1-box {
+    #take-action .container .take-action-box {
         flex-direction: column;
     }
 
-    #mid1 .container div{
-        justify-content: space-around;
+
+    #take-action .container div p strong {
+    font: Bold 3vw/5vw Helvetica;
+    }
+
+    #take-action .container div p {
+        font: lighter 2vw/3vw Helvetica;
+        width: 30vw;
     }
 
 
-    #mid2{
+
+
+    #what-we-do {
         height: auto;
     }
 
-
-    /* #mid2 .container .bold {
-        width: 800px;
-    } */
-
-    #mid2-box{
+    .what-we-do-box {
         flex-direction: column;
     }
 
-    #mid2 .container .portrait-box{
-        width: 820px;
-        height: 400px;
+    #what-we-do .container .portrait-box {
+        width: auto;
+        height: 37vw;
         margin-bottom: 100;
     }
 
-    #mid2 .container .portrait-box div{
+    #what-we-do .container .portrait-box div {
         display: flex;
+        flex-direction: column;
+        left: 0;
     }
 
-    #mid2 .container .portrait-box div p:nth-child(3){
-        position: absolute;
-        top: 190px;
-        right: 100px;
-        width: 310px;
-        font: lighter 20px/29px Helvetica;
+
+
+    #what-we-do .portrait-box .col-1{
+        display: flex;
+        justify-content: space-around;
     }
 
-    #mid2 .container .portrait-box div p:nth-child(2){
+    #what-we-do .portrait-box .col-1 p{
+        width: 40%;
         position: relative;
-        top: 75px;
-        left: 90px;
-        font: Bold 38px/46px Helvetica;
-        letter-spacing: 1;
+        top: 40;
     }
 
-    #mid2 .container .portrait-box div button{
-        position: absolute;
-        top: 300px;
-        left: 165px;
-        padding: 15 30 15 30;
+    #what-we-do .portrait-box .col-2{
+        display: flex;
+        flex-direction: row-reverse;
+        
     }
 
-    #mid3 .left{
+
+    #what-we-do img {
+        width: 35vw;
+    }
+
+
+    /* .portrait-box p {
+        width: 80%;
+    } */
+
+    .portrait-box .regular {
+        font: lighter 2.5vw/3vw Helvetica;
+        width: 44%;
         position: relative;
-        top: -45px;
+        bottom: 75px;
     }
 
-    #mid3 .left button{
-        padding: 15 30 15 30;
+    #what-we-do .container strong {
+        font: Bold 3vw/4vw Helvetica;
     }
 
-    #mid4{
+
+    #what-we-do .container .portrait-box a{
+        position: relative;
+        top: 35px;
+        right: 45px;
+        display: flex;
+        width: 20vw;
+        height: 6vw;
+        background: #c1f7d5;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        font: bold 3vw/1vw helvetica;
+    }
+
+
+
+
+    #stories {
         height: auto;
     }
 
-    #mid4 .container {
+    #stories .container {
         flex-direction: column-reverse;
         align-items: baseline;
+        padding-bottom: 50;
     }
 
-    #mid4-left {
+    #stories .col-1 {
         left: 70px;
-        top: -70px;
+        top: -40px;
     }
 
     #blue-box{
@@ -179,59 +167,92 @@
         height: auto;
     }
 
-    #mid4-left button {
+   #stories .col-1 button {
         top: 50px;
     }
 
-    #mid4 #mid4-right img {
+    #stories .col-2 img {
         width: 70vw;
     }
 
-/* 
-    #mid4 .container #mid4-right img{
-        width: 750px;
-        height: auto;
-    } */
 
     #blue-box div{
-        width: 660px;
+        width: 100%;
+    }
+
+    #blue-box p {
+        font: bold 2.5vw/3.5vw Helvetica;
+        width: 55vw;
     }
     
-    #mid4 .container button{
-        padding: 15 30 15 30;
+    #blue-box a {
+        font: lighter 1.5vw/0vw Helvetica;
     }
 
-    #mid5 .container .regular {
-        width: 800px;
-        font: lighter 62px/76px flood-std;
+
+    #stories .col-1 a {
+        bottom: -15px;
     }
 
-    /* #mid5 .container img{
-        width: 350px;
-        height: auto;
-    } */
 
-    /* #mid5 .container #mid5-4-boxs{
-        height: -webkit-fill-available;
-    } */
+    #stories .col-2 .rectangle {
+        font: lighter 2vw/2vw Helvetica;
+    }
 
 
-    #mid6 .container{
+
+
+
+
+    #save-future .rectangle-w {
+        width: 20vw;
+        font: lighter 2vw/2vw Helvetica;
+    }
+
+
+    #save-future .green-btn {
+        padding: 10 20 10 20;
+    }
+
+    #save-future .container {
+        padding: 10;
+    }
+
+
+
+
+
+    #subscribe .container{
         flex-direction: column;
         align-items: normal;
     }
 
-    /* #mid6 p {
-        width: 600px;
-    } */
-
-    #mid6 form {
+    #subscribe form {
         width: auto;
     }
 
-    footer .logo{
-        width: 200px;
+
+    #subscribe p {
+        font: bold 2.8vw/3vw Helvetica;
+        width: 70%;
     }
+
+    #subscribe input[type=text] {
+        width: 70%;
+        font: lighter 2vw/1vw Helvetica;
+    }
+
+    #subscribe input[type=submit] {
+        font: bold 2vw/1vw Helvetica;
+        white-space: nowrap;
+    }
+
+
+
+    footer .container div strong {
+        font: bold 2vw/4vw Helvetica;
+    }
+
 
     footer .container div{
         flex-wrap: wrap;
@@ -244,338 +265,117 @@
     }
 
     footer .container div p:nth-child(4) {
-        font: lighter 27px/36px flood-std;
         position: relative;
-        top: -20px;
-    }
-
-} 
-
-/*--------------xxxxxxxxx-------------xxxxxxxxxxx----------------*/
-/*
-@media all and (max-width:768px){
-
-    #mid3 .container .left img{
-        display: none;
-    }
-
-    #mid3 .container .left p{
-        font: lighter 44px/46px flood-std;
-        color: #FFFFFF;
-        width: min-content;
-    }
+        top: -10px;
 
 
-    header nav{
-        flex-direction: column;
-        width: auto;
-    }
-
-    header nav ul{
-        margin: -20;
-        padding: 20;
-    }
-
-    header nav li{
-        padding: 0 60 0 0;
-    }
-
-
-    #banner{
-        height: 670px;
-        background: transparent url(../img/annie-spratt-135307-unsplash-t.png) 0% 0% no-repeat;
-        background-size: contain;
-    }
-
-    #banner .container{
-        flex-direction: column-reverse;
-    }
-
-    #banner .container img{
-        width: 180px;
-        height: auto;
-    }
-
-
-    #banner-box{
-        width: 640px;
-        height: 300px;
-        margin: 100 0 0 0;
-    }
-
-    #banner-box div{
-        width: 570px;
-        position: relative;
-        top: -30;
-    }
-
-    #banner-box .bold {
-        width: 570;
-        height: auto;
-    }
-
-    #banner-box .bold {
-        font: Bold 36px/46px Helvetica;
-    }
-
-    #mid1 .container .mid1-box {
-        flex-direction: column;
-    }
-
-    #mid1 .container div{
-        justify-content: space-between;
-    }
-
-    #mid1 .container div p{
-        width: 250px;
-    }
-
-    #mid2{
-        height: auto;
-    }
-
-    #mid2 .container{
-        overflow: visible;
-    }
-
-
-    #mid2 .container .bold {
-        width: 650px;
-        font: Bold 36px/46px Helvetica;
-    }
-
-    #mid2-box{
-        flex-direction: column;
-    }
-
-    #mid2 .container .portrait-box{
-        width: 640px;
-        height: 280px;
-        margin-bottom: 100;
-    }
-
-    #mid2 .container .portrait-box div{
-        display: flex;
-    }
-
-    #mid2 .container .portrait-box div img{
-        width: 280px;
-        height: auto;
-    }
-
-    #mid2 .container .portrait-box div p:nth-child(3){
-        position: absolute;
-        top: 140px;
-        right: 60px;
-        width: 250px;
-        font: lighter 16px/24px Helvetica;
-    }
-
-    #mid2 .container .portrait-box div p:nth-child(2) strong{
-        font: Bold 22px/28px Helvetica;
-    }
-
-    #mid2 .container .portrait-box div p:nth-child(2){
-        position: relative;
-        top: 50px;
-        left: 50px;
-        font: Bold 22px/28px Helvetica;
-        letter-spacing: 1;
-        width: 200px;
-    }
-
-    #mid2 .container .portrait-box div button{
-        position: absolute;
-        top: 230px;
-        left: 130px;
-        padding: 10 30 10 30;
-    }
-
-    #mid3 .container .right .landscape-box {
-        width: 380px;
-        height: 150px;
-        margin-bottom: 30px;
-    }
-
-    #mid3 .container .right{
-        height: auto;
-    }
-
-    #mid3 .left{
-        position: relative;
-        top: -45px;
-    }
-
-    #mid3 .box-left strong {
-        font: Bold 36px/46px Helvetica;
-    }
-
-    #mid3 .left button{
-        padding: 15 30 15 30;
-    }
-
-    #mid4{
-        height: auto;
-    }
-
-    #mid4 .container {
-        flex-direction: column-reverse;
-        align-items: baseline;
-    }
-
-    #mid4 .container #mid4-right img {
-        width: 90%;
-    }
-
-    #blue-box p {
-        font: bold 22px/28px Helvetica;
-    }
-
-    #mid4-left {
-        left: 70px;
-        top: -70px;
-    }
-
-    #blue-box{
-        width: 550px;
-        height: auto;
-    }
-
-    #mid4-left button {
-        top: 50px;
-    }
-
-
-    #blue-box div{
-        width: 660px;
-    }
-    
-    #mid4 .container button{
-        padding: 15 30 15 30;
-    }
-    
-    #mid5{
-        height: 1100px;
-    }
-
-    #mid5 .container .regular {
-        width: auto;
-        font: lighter 44px/46px flood-std;
-    }
-
-    #mid5 .container img{
-        width: 280px;
-        height: auto;
-    }
-
-    #mid5 .bolder-w {
-        font: bold 28px/36px Helvetica;
-    }
-
-    #mid5 .mid5-lorem {
-        font: Lighter 16px/22px Helvetica;
-    }
-
-    #mid5 .container #mid5-4-boxs{
-        height: -webkit-fill-available;
-    }
-
-    #mid5 .container .mid5-upper{
-        margin-bottom: 200px;
-    }
-
-    #mid5 .container #mid5-4-boxs #_1{
-        width: 280px;
-    }
-
-
-    #mid5 .container #mid5-4-boxs #_2{
-        width: 280px;
-    }
-
-    #mid5 .container button{
-        padding: 15 30 15 30;
-    }
-
-    #mid6 .container{
-        flex-direction: column;
-        align-items: normal;
-    }
-
-    #mid6 p {
-        width: 450px;
-        font: bold 22px/28px Helvetica;
-    }
-
-    #mid6 form {
-        width: auto;
-    }
-
-    footer .logo{
-        width: 170px;
-    }
-
-    footer .container div{
-        flex-wrap: wrap;
-        width: 60%;
-    }
-
-    footer .container{
-        align-items: normal;
-        justify-content: space-evenly;
-    }
 
 }
-*/
-/*--------------xxxxxxxxx-------------xxxxxxxxxxx----------------*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:676px){
+
+    .portrait-box .regular {
+        bottom: 75;
+
+}
+
+@media screen and (max-width:696px){
+
+    .portrait-box .regular {
+        bottom: 60;
+
+}
+
+
+
+@media screen and (max-width:580px){
+
+    .portrait-box .regular {
+        bottom: 50;
+
+}
+
+@media screen and (max-width:580px){
+
+    .portrait-box .regular {
+        bottom: 50;
+
+}
+
+
+@media screen and (max-width:508px){
+
+    .portrait-box .regular {
+        bottom: 35;
+
+}
+
+@media screen and (max-width:445px){
+
+    .portrait-box .regular {
+        bottom: 25;
+
+}
+
+
+@media screen and (max-width:390px){
+
+    .portrait-box .regular {
+        bottom: 20;
+
+}
+
 
 @media screen and (max-width:376px){
 
-    header{
-        height: auto;
-    }
-
-    header .container {
-        margin: 20;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    header .logo {
-        width: 50%;
-        font: Bold 1.2em/1.4em Helvetica;
-    }
-
-    
     header nav {
         flex-direction: row;
-        margin-bottom: 5%;
-        align-items: center;
-        width: auto;
+        width: 100%;
     }
 
-    header nav ul {
-        display: flex;
+    ul{
         flex-direction: column;
-        padding: unset;
+        width: 35%;
+        margin: 0;
     }
-/* 
-    header .container .logo{
-        width: 250px;
-        font: Bold 35px/48px Helvetica;
-    } */
-
-    header nav ul li{
-        /* font: Lighter 30px/44px Helvetica; */
-        padding: unset;
-        font: Lighter 1em/1em Helvetica;
+   
+    header .container{
+        flex-direction: column;
+        padding: 20 10 20 10;
     }
 
-    header .container button{
-        width: 75vw;
-        /* padding: 15 100 15 100; */
-        /* font: Bold 28px/32px Helvetica; */
+    .logo {
+        font: Bold 5vw/7vw Helvetica;
+        width: 45%;
     }
+
+    li{
+        padding-bottom: 10;
+    }
+
+    a {
+        font: Lighter 3.5vw/4vw Helvetica;
+    }
+    
+
+    .green-btn {
+        font: bold 4vw/10vw Helvetica;
+        padding: 0 20 0 20;
+        width: 90%;
+    }
+
+    /*---------Header--Ends-here---------*/
+
+
 
     #banner{
         background: transparent url(../img/annie-spratt-135307-unsplash-m.png) 0% 0% no-repeat;
@@ -589,14 +389,14 @@
     }
 
     #banner .container img{
-        width: 180px;
+        width: 50vw;
         height: auto;
     }
 
 
     #banner-box {
-        width: 312px;
-        height: 240px;
+        width: 100%;
+        height: auto;
     }
 
     #banner-box div {
@@ -606,299 +406,388 @@
         align-items: center;
         left: -5px;
         top: -15;
-        width: 270px;
         text-align: center;
     }
 
 
     #banner-box .bold {
-        font: Bold 22px/28px Helvetica;
-        width: 278;
+        font: Bold 6vw/8vw Helvetica;
+        width: 75vw;
         height: auto;
     }
 
-    #mid1 .container{
+     .rectangle {
+        font: lighter 5vw/6vw Helvetica;
+        width: 35vw;
+        padding: 10;
+    }
+
+    .rectangle-w {
+        padding: 10;
+    }
+
+
+    #banner .container #banner-box p a {
+        font: lighter 4vw/5vw Helvetica;
+    }
+
+
+    #take-action .container{
         top: -40px;
     }
 
-    #mid1 .container div p strong{
-    font: Bold 18px/22px Helvetica;
+    #take-action .container div p {
+        width: 35vw;
     }
 
-    #mid1 .container div p {
-        width: 250px;
-        font: lighter 14px/20px Helvetica;
+    
+    #take-action .container div p strong {
+        font: Bold 4vw/6vw Helvetica;
     }
     
-    #mid2{
+        #take-action .container div p {
+        font: lighter 3vw/4vw Helvetica;
+    }
+
+
+
+
+    #what-we-do {
         padding: 20 0 0 0;
     }
 
-    #mid2 .container{
+    #what-we-do .container{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #mid2 .container .bold {
+    #what-we-do .container .bold {
         font: Bold 22px/28px Helvetica;
         width: auto;
         text-align: center;
     }
 
-    #mid2 .container .portrait-box {
-        width: 312px;
-        height: 415px;
-    }
-
-    #mid2 .container .portrait-box div{
-        left: 30px;
-    }
-
-    #mid2 .container .portrait-box img{
-        width: 250px;
+    #what-we-do .container .portrait-box {
+        width: 100%;
         height: auto;
     }
 
-    #mid2 .container strong {
-        font: Bold 18px/22px Helvetica;
+    #what-we-do .container .portrait-box div{
+        left: unset;
+        align-items: center;
     }
 
-    #mid2 .container .portrait-box div p:nth-child(3) {
-        font: lighter 14px/20px Helvetica;
-        right: auto;
-        top: 220px;
-        text-align: center;
-        width: 250px;
-    }
-
-    #mid2 .container .portrait-box div p:nth-child(2) {
-        /* left: -160px;
-        top: 170; */
-        display: flex;
-        flex-direction: column;
-        font: Bold 18px/22px Helvetica;
-        text-align: center;
-        position: absolute;
-        top: 180px;
-        left: 0;
-    }
-
-    #mid2 .container .portrait-box div button {
-        top: 360;
-        left: 50;
-        padding: 10 30 10 30;
-    }
-
-
-    #mid3{
-        background: transparent url(../img/did-you-know-background-m.png) 0% 0% no-repeat;
-        background-size: auto 100%;
-        background-position: -150px -30px;
-    }
-
-
-    #mid3 .container{
-        flex-direction: column;
-    }
-
-    #mid3 .container .left p {
-        width: auto;
-    }
-
-    /* #mid3 .container .right{
-        justify-content: unset;
+    #what-we-do .container .portrait-box img{
+        width: 70vw;
         height: auto;
-    } */
+    }
 
-    .landscape-box{
+    #what-we-do .container strong {
+        font: Bold 18px/22px Helvetica;
+    }
+
+
+    #what-we-do .portrait-box .col-1{
+        display: block;
+    }
+
+    #what-we-do .portrait-box .col-2{
+        display: block;
+    }
+
+    #what-we-do .portrait-box .col-1 p {
         width: auto;
-    }
-
-    #mid3 .box-left strong {
-        font: Bold 22px/28px Helvetica;
-    }
-
-    #mid3 .box-left {
-        width: 55%;
+        position: unset;
+        top: unset;
+        text-align: center;
     }
 
 
-    #mid3 .right #did-you-know-stamp{
+    #what-we-do .container strong {
+        font: Bold 5vw/6vw Helvetica;
+    }
+
+    .portrait-box .regular {
+        bottom: unset;
+        font: lighter 4vw/5vw Helvetica;
+        width: 80%;
+    }
+
+
+    #what-we-do .portrait-box .col-2 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
         display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    bottom: 15px;
+    }
+    
+    #what-we-do .container .portrait-box a {
+        position: unset;
     }
 
-    /* #mid3 .container .right:nth-child(1) .landscape-box div #mid3-uni .box-left p:nth-child(1){
-        position: relative;
-        top: 1;
-    } */
 
 
-    #mid4{
+    #stories {
         padding: 0 0 50 0;
     }
 
 
-    #mid4 .container {
+    #stories .container {
         align-items: center;
     }
 
-    #mid4 .container #mid4-right img {
-        width: 312px;
-        height: 312px;
-    }
-
-    #mid4-left {
+    #stories .col-1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         left: unset;
+        top: -70;
     }
 
-    #mid4-right {
+    #stories .col-2 {
         margin-bottom: 100px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
 
     #blue-box {
-        width: 312px;
+        width: 75vw;
         height: auto;
     }
 
+    #blue-box div {
+        width: auto;
+        height: auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #blue-box p {
-        font: bold 20px/28px Helvetica;
+        font: bold 6vw/8vw Helvetica;
         text-align: center;
     }
 
     #blue-box a {
-        font: lighter 11px/13px Helvetica;
+        font: lighter 3vw/5vw Helvetica;
     }
 
 
-    #mid5 .container {
-        padding-bottom: 150;
+    #stories .col-2 .rectangle {
+        position: relative;
+        top: 30px;
+        left: unset;
     }
 
-    #mid5 .container .regular {
-        width: 312px;
-        font: lighter 44px/46px flood-std;
-        text-align: center;
+    #stories .col-1 a {
+        position: unset;
     }
 
-    #mid5 .container img {
-        width: 312px;
+    #stories .col-1 .green-btn {
+        position: relative;
+        bottom: -25;
+        width: 45%; 
+    }
+
+
+    #stories .col-2 img {
+        width: 80vw;
+    }
+
+
+    #save-future{
+        height: 400vw;
+    }
+
+    .save-future-upper, .save-future-lower {
+        margin: auto;
+        margin-top: -70vw;
+    }
+
+
+    .save-future-upper {
+        flex-direction: column;
+    }
+
+    .save-future-lower{
+        flex-direction: column-reverse;
+    }
+
+    .save-future-upper img {
+        width: 100%;
         height: auto;
     }
 
-    #mid5 .container .mid5-upper {
-        flex-direction: column;
-    }
-
-    .mid5-upper #_1 .rectangle-w {
-    position: relative;
-    top: -345px;
-    left: 70;
-    }
-
-    .mid5-upper #_1 .bolder-w {
-        font: Bold 22px/28px Helvetica;
-    }
-
-    #mid5 .container #mid5-4-boxs #_1 {
-        width: 312px;
-        text-align: center;
-    }
-
-    .mid5-lower #_2 .rectangle-w {
-        position: relative;
-        z-index: 1;
-    }
-
-    .mid5-lower img{
-        position: relative;
-        bottom: 320;
-    }
-
-    #mid5 .container .mid5-lower {
-        flex-direction: column;
-    }
-
-
-    .mid5-lower #_2 .rectangle-w {
-        position: relative;
-        top: 120px;
-        left: 70;
-        }
-
-    .mid5-lower #_2 .bolder-w {
-        position: relative;
-        top: 450px;
-        font: Bold 22px/28px Helvetica;
-
-    }
-
-    #mid5 .container .mid5-lower .mid5-lorem{
-        position: relative;
-        top: 450px;
-    }
-
-    #mid5 .container .mid5-lower{
-        text-align: center;
-        margin: 0 0 0 0;
-    }
-
-    #mid5 .container #mid5-4-boxs #_2 {
+    .save-future-lower img {
         width: 100%;
+        height: auto;
     }
 
 
-    #mid5 .container .mid5-lower button{
+    #save-future .row-1, .row-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: relative;
-        top: 450px;
+        bottom: 90vw;
     }
 
 
-    #mid6 .container{
+    #save-future .bolder-w {
+        font: Bold 5vw/6vw Helvetica;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+
+    .save-future-lorem {
+        font: Lighter 4vw/6vw Helvetica;
+        text-align: center;
+    }
+
+
+    #save-future .rectangle-w {
+        font: lighter 3vw/1vw Helvetica;
+        white-space: nowrap;
+        margin-bottom: 80vw;
+    }
+
+    #save-future .green-btn {
+        width: auto;
+        padding: 0 20 0 20;
+    }
+
+
+    #save-future .container .regular {
+        font: lighter 11vw/13vw flood-std;
+        text-align: center;
+        width: auto;
+        margin-bottom: 85vw;
+    }
+
+
+
+    #subscribe .container{
         overflow: visible;
     }
 
-    #mid6 form {
+    #subscribe form {
         width: auto;
     }
 
-    #mid6 p {
-        width: 320px;
-        font: bold 22px/28px Helvetica;
+    #subscribe p {
+        width: 100%;
+        font: bold 5.5vw/8vw Helvetica;
     }
 
-    #mid6 input[type=text] {
-        width: auto;
-        font: lighter 12px/14px Helvetica;
+    #subscribe input[type=text] {
+        width: 60%;
+        font: lighter 4vw/1vw Helvetica;
     }
+
+    #subscribe input[type=submit] {
+        font: bold 3vw/1vw Helvetica;
+        white-space: nowrap;
+        padding: unset;
+        width: 30%;
+    }
+
+
 
 
     footer .container {
         margin-top: 50;
     }
 
-    footer .logo {
-        width: 110px;
-    }
-
     footer .container div {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
         position: relative;
     }
+
+
+    footer .container div p {
+        font: lighter 3vw/4vw Helvetica;
+        width: 20vw;
+    }
+
+    footer .container div strong {
+        font: bold 3vw/5vw Helvetica;
+    }
+
+
+    footer .container div p:nth-child(4) {
+        font: lighter 5vw/7vw flood-std;
+    }
+ 
 
     footer .container div p:nth-child(3){
         position: absolute;
         align-self: flex-start;
-        left: -165px;
-        top: 170px;
+        left: -55vw;
+        top: 130px;
+    } 
+
+
+
+
+} 
+
+
+
+@media screen and (max-width:320px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 110px;
+    }
+
+}
+
+@media screen and (max-width:290px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 100px;
+    }
+
+}
+
+@media screen and (max-width:230px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 80px;
+    }
+
+}
+
+
+@media screen and (max-width:150px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 70px;
     }
 
 }

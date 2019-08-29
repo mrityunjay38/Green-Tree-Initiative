@@ -1,6 +1,8 @@
 body{
+    font-family: Helvetica;
     width: 100%;
     margin: auto;
+    color: #354463;
 }
 
 @font-face {
@@ -8,15 +10,50 @@ body{
     src: url('https://use.typekit.net/pf/typt/khwz/n4/l?subset_id=1&fvd=n4&ec_token=3bb2a6e53c9684ffdc9a9bf7185b2a6276e0698d66f4110a2ab9340afa69d4d766077cf2280e970caeacca0e54695db78a301448dd3861150fb50e40c80a0eba6808383a5b5031fda18044fa921293d018238cd0ea2f18d9d946965f33abc99a8b3bb0b6f919a1adc58beb401bf1b72b');
   }
 
-.regular{
-    font: lighter 16px/24px Helvetica;
-    color:#354463;
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
 }
 
-.bold{
-    font: Bold 22px/24px Helvetica;
-    color:#354463;
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
 }
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30;
+}
+
+.logo {
+    font: Bold 1.5vw/2vw Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    width: 11vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+li{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #354463;
+    font: Lighter 1.2vw/1vw Helvetica;
+}
+
 
 .bolder{
     font: Bold 44px/56px Helvetica;
@@ -25,91 +62,26 @@ body{
 
 
 .bolder-w{
-    font: Bold 2em/1.4em Helvetica;
+    font: Bold 3vw/4vw Helvetica;
     color:#FFFFFF;
 }
 
+
 .green-btn{
-    background: #C1F7D5 0% 0% no-repeat padding-box;
+    background: #C1F7D5;
+    font: bold 1.2vw/3vw Helvetica;
     border-radius: 100px;
-    opacity: 1;
-    color: #354463;
-    opacity: 1;
     text-align: center;
-    padding: 10;
-    font: Bold 1.2em/1.2em Helvetica;
-    border-style: solid;
-    border: none;
+    width: auto;
+    padding: 0 10 0 10;
+    white-space: nowrap;
 }
 
-
-header{
-    height: auto;
-    padding: 20;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-}
-
-
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-header {
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    width: 18%;
-    height: auto;
-    font: Bold 1.4em/1.4em Helvetica;
-    letter-spacing: 0;
-    color: #354463;
-    opacity: 1;
-    float: left;
-}
-
-header nav ul{
-    margin: 0;
-    padding: 20;
-    float: right;
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav li{
-    float: left;
-    letter-spacing: -0.16px;
-    font: Lighter 1em/1em Helvetica;
-    display: inline;
-    padding: 0 50 0 50;
-    color: #354463;
-    opacity: 1;
-}
-
-header nav li a{
-    color: #354463;
-    text-decoration: none;
-}
+/*---------Header-Ends-here--------*/
 
 #banner {
     height: auto;
-    background: transparent url('../img/annie-spratt-135307-unsplash.png') 0% 0% no-repeat;
+    background: transparent url('../img/annie-spratt-135307-unsplash-d.png') 0% 0% no-repeat;
     background-size: cover;
     padding: 100;
     display: flex;
@@ -133,37 +105,38 @@ header nav li a{
 }
 
 .rectangle{
-    font: lighter 1em/1em Helvetica;
+    font: lighter 2vw/3vw Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 10em;
+    width: 15vw;
     height: auto;
     letter-spacing: 0.56px;
     color:white;
-    padding: 15;
+    padding: 10;
     background: #354463 0% 0% padding-box;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .rectangle-w{
-    font: lighter 14px/17px Helvetica;
+    font: lighter 2vw/3vw Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 10em;
+    width: 15vw;
     height: auto;
     letter-spacing: 0.56px;
-    color:#354463;
+    color: #354463;
+    padding: 10;
     background: #FFFFFF 0% 0% padding-box;
     text-transform: uppercase;
-    padding: 15;
+    white-space: nowrap;
 }
 
+
 #banner-box .bold{
-    font: Bold 2.1em/1.4em Helvetica;
-    width: 416px;
-    height: auto;
+    font: Bold 3vw/4vw Helvetica;
 }
 
 #banner-box div{
@@ -172,12 +145,17 @@ header nav li a{
 }
 
 #banner .container #banner-box p a{
-    font: lighter 16px/24px Helvetica;
+    font: lighter 1.2vw/2vw Helvetica;
     color: #354463;
 }
 
+/*-----------Banner-Ends----------*/
 
-#mid1 .container{
+#take-action {
+    background: #C1F7D5;
+}
+
+#take-action .container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,31 +163,37 @@ header nav li a{
     top: -35px;
 }
 
-/* #mid1 .container .rectangle{
-width: 15%;
-} */
-
-#mid1 .container div{
+#take-action .container div{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#mid1 .container div p strong {
+#take-action .container div p strong {
     display: block;
-    font: Bold 28px/36px Helvetica;
+    font: Bold 2vw/4vw Helvetica;
     letter-spacing: 0;
     color: #354463;
 }
 
 
-#mid1 .container div p {
+#take-action .container div p {
     width: 18vw;
-    font: lighter 16px/24px Helvetica;
+    font: lighter 1.2vw/1.5vw Helvetica;
     color:#354463;
 }
 
-#mid2{
+
+#box-1, #box-2{
+    display: flex;
+    /* justify-content: space-around !important; */
+}
+
+/*----------take-action-ends ----------*/
+
+
+
+#what-we-do {
     background: #354463;
     height: auto;
     padding: 100;
@@ -218,13 +202,13 @@ width: 15%;
     
 }
 
-#mid2 .rectangle{
+#what-we-do .rectangle{
     background:#FFFFFF;
     color: #354463;
 
 }
 
-#mid2 .container .bold{
+#what-we-do .container .bold{
     font: Bold 2.8em/4rem Helvetica;
     letter-spacing: 0;
     color: #FFFFFF;
@@ -237,122 +221,50 @@ width: 15%;
 }
 
 .portrait-box p{
-    width: 256px;
+    width: 80%;
 }
 
-#mid2 .container strong{
-    font: Bold 28px/36px Helvetica;
+#what-we-do .container strong{
+    font: Bold 2vw/2.5vw Helvetica;
     letter-spacing: 0;
     color: #354463;
    
 }
 
-#mid2 .container .portrait-box a{
+#what-we-do .container .portrait-box a{
     text-decoration: none;
     color: #354463;
 }
 
-#mid2-box{
+.what-we-do-box{
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
 
-#mid2-box .portrait-box div{
+.what-we-do-box .portrait-box div{
     position: relative;
     top:-30;
-    left: 33;
-}
-
-#mid3 {
-    background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
-    height: auto;
-    display: flex;
-    padding: 100 0 100 0;
-}
-
-#mid3 .left{
-   display: table-caption;
-}
-
-.landscape-box{
-    height: 12em;
-    width: 40vw;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 0 50 0;
-}
-
-#mid3 .box-left strong{
-    font: Bold 44px/56px Helvetica;
-    color:#354463;
-}
-#mid3 .box-left {
-    width: 70%;
+    left: 25;
 }
 
 
-#mid3 .container{
-    display: flex;
-    justify-content: space-between;
+#what-we-do img{
+    width: 23vw;
 }
 
-#mid3 .left{
-    display: flex;
-    flex-direction: column;
-}
 
-#mid3 .left .green-btn{
-width: fit-content;
-}
+/*-----------What-we-do-ends---------*/
 
-.landscape-box span{
-    display: flex;
-    justify-content: space-around;
-}
 
-.landscape-box span .box-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
-.box-right a{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    background: #C1F7D5;
-    border-radius: 100px;
-}
 
-.right{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#mid3-uni {
-    display: flex;
-    justify-content: space-around;
-}
-
-#mid3-uni .box-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-#mid4{
+#stories {
     height: auto;
     padding: 50 0 100 0;
 }
 
-#mid4 .container{
+#stories .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -366,16 +278,16 @@ width: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 3vw;
 }
 
 #blue-box p{
-    font: bold 1.8em/1.5em Helvetica;
+    font: bold 1.9vw/3vw Helvetica;
     letter-spacing: 0;
-    padding: 20;
 }
 
 #blue-box a{
-    font: lighter 16px/24px Helvetica;
+    font: lighter 1.2vw/1vw Helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -383,71 +295,92 @@ width: fit-content;
 
 #blue-box div{
     width: auto;
+    height: 21vw;;
 }
 
-#mid4-right .rectangle{
+#stories .col-2 .rectangle{
     position: relative;
     top: 35px;
     left: 69px;
 }
 
-#mid4 #mid4-right img{
+#stories .col-2 img{
     width: 50vw;
 }
 
-#mid4-left{
+#stories .col-1 {
     position: relative;
     left: 50;
     top: 40;
 }
 
-#mid4-left button{
+#stories .col-1 a{
     position: relative;
     bottom:-50;
 }
 
-#mid5{
+
+#stories .green-btn {
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+
+/*----------stories-ends------------*/
+
+
+
+#save-future {
     height: auto;
     background: #354463;
     padding: 50 0 100 0;
 }
 
+#save-future .green-btn {
+    padding: 10 20 10 20;
+}
 
-#mid5 .container .regular{
-    font: lighter 4.5em/1.2em flood-std;
+
+#save-future .container .regular{
+    font: lighter 5vw/7vw flood-std;
     letter-spacing: 0;
     color: #FFFFFF;
     width: 80%;
 }
 
-.mid5-lorem{
-    font: Lighter 20px/32px Helvetica;
+.save-future-lorem{
+    font: Lighter 2vw/3vw Helvetica;
     letter-spacing: -0.4px;
     color: #FFFFFF;
 }
 
-#_1,#_2{
+#save-future .row-1,.row-2{
     width: 30vw;
     height: auto;
 }
 
-.mid5-upper img{
+.save-future-upper img{
     width: 40vw;
     height: 40vw;
 }
 
-.mid5-lower img{
+.save-future-lower img{
     width: 40vw;
     height: 40vw;
 }
 
-.mid5-upper, .mid5-lower{
+.save-future-upper, .save-future-lower{
     display: flex;
     justify-content: space-between;
     margin: 100 0 0 0;
 }
 
-#mid6{
+
+/*-------------future-ends------------------*/
+
+
+
+
+#subscribe {
     background: #C1F7D5;
     height: auto;
     display: flex;
@@ -456,47 +389,56 @@ width: fit-content;
     padding: 50 0 50 0;
 }
 
-#mid6 .container{
+#subscribe .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#mid6 p{
-    font: bold 2em/1.2em Helvetica;
+#subscribe p{
+    font: bold 2vw/3vw Helvetica;
     letter-spacing: 0;
     color: #354463;
-    width: 60%;
+    width: 50%;
 }
 
-#mid6 input[type=text]{
+#subscribe input[type=text]{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 100px;
-    padding: 10px;
-    width: 65%;
+    padding: 10;
+    width: 60%;
     color: #354463;
-    font: lighter 1em/1em Helvetica;
+    font: lighter 1.2vw/1vw Helvetica;
     border-style: solid;
     border: none;
 }
 
-#mid6 input[type=submit]{
+#subscribe input[type=submit]{
     background: #354463 0% 0% no-repeat padding-box;
     border-radius: 100px;
     padding: 10px;
     color: #C1F7D5;
-    font: bold 1.2em/1em Helvetica;
+    font: bold 1.5vw/1vw Helvetica;
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border: none;
 }
 
-#mid6 form{
+#subscribe form{
     display: flex;
     justify-content: space-between;
     width: 45%;
 }
+
+
+
+/*------------------subcription-ends------------------*/
+
+
+
+
+
 
 footer{
     height: auto;
@@ -520,7 +462,7 @@ footer .container div{
 }
 
 footer .container div strong{
-    font: bold 14px/17px Helvetica;
+    font: bold 1.2vw/3vw Helvetica;
     color: #354463;
     letter-spacing: 0.56px;
     text-decoration: underline;
@@ -528,11 +470,11 @@ footer .container div strong{
 }
 
 footer .container div p{
-    font: lighter 1em/1.5em Helvetica;
-    width: 10rem;
+    font: lighter 1.2vw/1.5vw Helvetica;
+    width: 14vw;
     color: #354463;
 }
 
 footer .container div p:nth-child(4){
-    font: lighter 2.5em/1.2em flood-std;
+    font: lighter 3vw/3.5vw flood-std;
 }
