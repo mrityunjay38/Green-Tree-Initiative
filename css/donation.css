@@ -1,6 +1,21 @@
 @import "style.css";
 
 
+
+ .green-btn {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    color: #354463;
+    opacity: 1;
+    text-align: center;
+    padding: 10;
+    font: Bold 1.2vw/1vw Helvetica;
+    border-style: solid;
+    border: none;
+ }
+
+
 header{
     display: unset;
 }
@@ -13,16 +28,23 @@ header nav{
     width: 100%;
 }
 
+.logo {
+    width: 16vw;
+    height: auto;
+    text-align: center;
+    font: Bold 1.5vw/2vw Helvetica;
+}
+
 
 h2{
     text-align: left;
-    font: Bold 28px/36px Helvetica;
+    font: Bold 2vw/3vw Helvetica;
 }
 
 h3{
-    font: lighter 72px/76px flood-std;
+    font: lighter 4.5vw/5vw flood-std;
     letter-spacing: 0;
-    width: 384px;
+    width: 30vw;
     height: auto;
 }
 
@@ -32,24 +54,18 @@ h3{
     align-items: baseline;
 }
 
-header .logo {
-    width: 15rem;
-    height: auto;
-    text-align: center;
-    font: Bold 22px/36px Helvetica;
-}
-
 section{
     background: transparent url('../img/annie-spratt-427340-unsplash-donation-d.png') 0% 0% no-repeat;
     background-size: cover;
-    height: 950px;
+    height: auto;
+    padding-bottom: 50px;
     color: #FFFFFF;
 }
 
 
 form{
     background: #354463;
-    width: 640px;
+    width: 40vw;
     height: auto;
     display: flex; 
     flex-direction: column;
@@ -59,13 +75,17 @@ form{
     padding-bottom: 40px;
 }
 
+.form-lower {
+    padding-top: 1vw;
+}
+
 form .form-upper,.form-lower{
     width: 80%;
     height: auto;
 }
 
 form p{
-    font: lighter 14px/17px Helvetica;
+    font: lighter 1vw/1vw Helvetica;
     letter-spacing: 0.56px;
     text-transform: uppercase;
 }
@@ -89,6 +109,7 @@ form .form-lower .row-6{
 form .form-lower .row-8{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 form input[type=text], select {
@@ -96,15 +117,19 @@ form input[type=text], select {
     border: none;
     border-bottom: 2px solid #C1F7D5;
     padding-bottom: 1rem;
+    padding-top: 0.5rem;
     color: #FFFFFF;
     width: 100%;
 }
 
-select::-ms-expand { display: block; }
+select::-ms-expand { 
+    padding-bottom: 1rem;
+    display: block; 
+}
 
 
 ::-webkit-input-placeholder {
-    font: Lighter 16px/22px Helvetica;
+    font: Lighter 1.2vw/2vw Helvetica;
     letter-spacing: -0.4px;
     color: #FFFFFF;
     opacity: 0.2;
@@ -113,151 +138,131 @@ select::-ms-expand { display: block; }
   form .form-lower a{
       color: #C1F7D5;
       text-decoration: underline;
-      font: lighter 16px/56px Helvetica;
+      font: lighter 1.2vw/1vw Helvetica;
       letter-spacing: -0.16px;
   }
 
   form .form-lower button{
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 1vw 2vw 1vw 2vw;
   }
+
+
+  /*---------xxxxxx----Master Responsive Code----xxxxxx----------------*/
+
+
+
+  .form-upper .row-1 .col-1,.col-2 input[type=text]{
+    width: 15vw;
+}
+
+.form-upper .row-3 .col-1,.col-3 input[type=text]{
+    width: 12vw;
+}
+
+.form-upper .row-3 select{
+    width: 5vw;
+    color: #C1F7D5;
+}
+
+.form-lower .row-6 input[type=text]{
+    width: 8vw;
+}
 
 
 
 /*-----------xxxxxx---------xxxxxx---------------*/
 
-@media screen and (max-width:1440px){
+/* @media screen and (max-width:1440px){
 
 
     .form-upper .row-1 .col-1,.col-2 input[type=text]{
-        width: 15rem;
+        width: 15vw;
     }
 
     .form-upper .row-3 .col-1,.col-3 input[type=text]{
-        width: 12rem;
+        width: 12vw;
     }
 
     .form-upper .row-3 select{
-        width: 5rem;
+        width: 5vw;
     }
 
     .form-lower .row-6 input[type=text]{
-        width: 8rem;
+        width: 8vw;
     }
 
-}
+} */
 
 @media screen and (max-width:768px){
 
 
-    header .logo{
-        width: 30%;
-    }
+section .container{
+    flex-direction: column-reverse;
+    align-items: center;
+}
 
-    section {
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    section .container{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    h3 {
-        text-align: center;
-        font: lighter 44px/46px flood-std;
-        width: 80%;
-    }
+form{
+    width: auto;
+}
 
 
-    form{
-        padding-bottom: 40px;
-    }
+.form-upper .row-1 .col-1,.col-2 input[type=text]{
+    width: 25vw;
+}
 
-    .form-upper .row-1 .col-1,.col-2 input[type=text]{
-        width: 15rem;
-    }
+.form-upper .row-3 .col-1,.col-3 input[type=text]{
+    width: 25vw;
+}
 
-    .form-upper .row-3 .col-1,.col-3 input[type=text]{
-        width: 12rem;
-    }
 
-    .form-upper .row-3 select{
-        width: 5rem;
-    }
+.form-upper .row-3 .col-3 input[type=text]{
+    width: 15vw;
+}
 
-    .form-lower .row-6 input[type=text]{
-        width: 8rem;
-    }
+.form-upper .row-3 select{
+    width: 15vw;
+}
+
+.form-lower .row-6 input[type=text]{
+    width: 15vw;
+}
 
 
 }
 
 @media screen and (max-width:376px){
 
-    header .logo {
-        width: 15rem;
+
+    .logo {
+        width: 20vw;
+        font: Bold 1.5vw/3vw Helvetica;
     }
-
-    h2{
-        font: Bold 22px/28px Helvetica;
-    }
-
-
-    h3 {
-        font: lighter 32px/46px flood-std;
-        width: 20rem;
-    }
-
-    form p{
-        font: lighter 11px/13px Helvetica;
-    }
-
-    ::-webkit-input-placeholder {
-        font: Lighter 14px/20px Helvetica;
-        letter-spacing: -0.4px;
-        color: #FFFFFF;
-        opacity: 0.2;
-      }
 
   
-    form .form-upper, .form-lower {
-        width: 40%;
-    }
-
-    form h2{
-        font: Bold 18px/22px Helvetica;
-    }
-
-    form .form-lower .row-8 {
-        flex-direction: column-reverse;
-    }
-
-    form .form-lower button{
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    form .form-lower a {
-        font: lighter 14px/24px Helvetica;
-    }
-
     .form-upper .row-1 .col-1,.col-2 input[type=text]{
-        width: 7rem;
+        width: 25vw;
     }
-
-    .form-upper .row-3 .col-1,.col-3 input[type=text]{
-        width: 5rem;
-    }
-
-    .form-upper .row-3 select{
-        width: 3rem;
-    }
-
-    .form-lower .row-6 input[type=text]{
-        width: 4rem;
-    }
-
     
+    .form-upper .row-3 .col-1,.col-3 input[type=text]{
+        width: 25vw;
+    }
+    
+    
+    .form-upper .row-3 .col-3 input[type=text]{
+        width: 15vw;
+    }
+    
+    .form-upper .row-3 select{
+        width: 15vw;
+    }
+    
+    .form-lower .row-6 input[type=text]{
+        width: 15vw;
+    }
+    
+    form .form-lower button {
+        padding: 2vw 2vw 2vw 2vw;
+    }
+    
+
 }
