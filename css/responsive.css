@@ -69,6 +69,43 @@
 
 
 
+
+    #hunger-issue .col-1 {
+        position: relative;
+        /* top: -45px; */
+    }
+
+    #hunger-issue .col-1 button{
+        padding: 15 30 15 30;
+    }
+
+    #hunger-issue .box-left strong {
+        font: Bold 2vw/3vw Helvetica;
+    }
+
+    #hunger-issue .box-left p {
+        font: lighter 2vw/3vw Helvetica;
+    }
+
+
+    #hunger-issue-center {
+        top: -15px;
+    }
+
+
+    .landscape-box {
+        margin: 0 0 20 0;
+    }
+
+
+    #hunger-issue .rectangle {
+            font: lighter 1vw/1vw Helvetica;
+            top: -10px;
+    }
+
+
+
+
     #what-we-do {
         height: auto;
     }
@@ -191,12 +228,13 @@
 
 
     #stories .col-1 a {
-        bottom: -15px;
+        bottom: -15;
     }
 
 
     #stories .col-2 .rectangle {
         font: lighter 2vw/2vw Helvetica;
+            top: 35;
     }
 
 
@@ -285,6 +323,7 @@
 
     .portrait-box .regular {
         bottom: 75;
+    }
 
 }
 
@@ -292,6 +331,7 @@
 
     .portrait-box .regular {
         bottom: 60;
+    }
 
 }
 
@@ -301,6 +341,7 @@
 
     .portrait-box .regular {
         bottom: 50;
+    }
 
 }
 
@@ -308,6 +349,7 @@
 
     .portrait-box .regular {
         bottom: 50;
+    }
 
 }
 
@@ -316,6 +358,11 @@
 
     .portrait-box .regular {
         bottom: 35;
+    }
+
+    #stories .col-2 .rectangle {
+        top: 25px;
+    }
 
 }
 
@@ -323,6 +370,7 @@
 
     .portrait-box .regular {
         bottom: 25;
+    }
 
 }
 
@@ -331,6 +379,7 @@
 
     .portrait-box .regular {
         bottom: 20;
+    }
 
 }
 
@@ -404,8 +453,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        left: -5px;
-        top: -15;
+        /* left: -5px; */
+        top: -10vw;
         text-align: center;
     }
 
@@ -433,7 +482,7 @@
 
 
     #take-action .container{
-        top: -40px;
+        top: -10vw;
     }
 
     #take-action .container div p {
@@ -529,8 +578,62 @@
 
 
 
+
+
+
+
+
+
+
+
+    #hunger-issue {
+        background: transparent url(../img/did-you-know-background-m.png) 0% 0% no-repeat;
+        background-size: cover;
+    }
+
+
+
+    #hunger-issue .container {
+        flex-direction: column;
+    }
+
+
+
+
+    #hunger-issue .col-1 img {
+        width: 75vw;
+    }
+
+
+    .landscape-box {
+        width: auto;
+        height: 30vw;
+    }
+
+
+    #hunger-issue .col-2 {
+        margin-top: 60;
+    }
+
+
+    #hunger-issue .box-left strong {
+        font: Bold 4vw/5vw Helvetica;
+    }
+
+    #hunger-issue .landscape-box .regular {
+        font: lighter 3vw/4vw Helvetica;
+    }
+
+
+    #did-you-know-stamp .rectangle {
+        top: -5vw;
+        left: 17vw;
+    }
+
+
+
     #stories {
-        padding: 0 0 50 0;
+        padding: unset;
     }
 
 
@@ -581,7 +684,7 @@
 
     #stories .col-2 .rectangle {
         position: relative;
-        top: 30px;
+        top: 8vw;
         left: unset;
     }
 
@@ -598,6 +701,11 @@
 
     #stories .col-2 img {
         width: 80vw;
+    }
+
+
+    #stories .container {
+      padding-bottom: 0;
     }
 
 
@@ -703,7 +811,7 @@
 
 
     footer .container {
-        margin-top: 50;
+        margin-top: 0;
     }
 
     footer .container div {
@@ -736,6 +844,10 @@
         top: 130px;
     } 
 
+
+    footer {
+        padding: 20 0 20 0;
+    }
 
 
 
@@ -789,5 +901,8 @@
         left: -55vw;
         top: 70px;
     }
+
+
+    
 
 }

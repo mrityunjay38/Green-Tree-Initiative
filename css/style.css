@@ -102,10 +102,11 @@ a{
     justify-content: space-between;
     align-items: end;
     width: 90%;
+    overflow: visible;
 }
 
 .rectangle{
-    font: lighter 2vw/3vw Helvetica;
+    font: lighter 1.2vw/3vw Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,7 +142,8 @@ a{
 
 #banner-box div{
     width:80%;
-    padding: 20;
+    position: relative;
+    top: -3vw;
 }
 
 #banner .container #banner-box p a{
@@ -160,7 +162,7 @@ a{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: -35px;
+    top: -3vw;
 }
 
 #take-action .container div{
@@ -259,6 +261,135 @@ a{
 
 
 
+
+
+
+
+
+#hunger-issue {
+    background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
+    height: auto;
+    display: flex;
+    padding: 50 0 10 0;
+}
+
+#hunger-issue .col-1 {
+   display: table-caption;
+}
+
+.landscape-box{
+    height: 15vw;
+    width: 40vw;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 50 0;
+}
+
+#hunger-issue .box-left strong{
+    font: Bold 3vw/4vw Helvetica;
+    color:#354463;
+}
+#hunger-issue .box-left {
+    width: 70%;
+}
+
+
+#hunger-issue .container{
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+#hunger-issue .col-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#hunger-issue .col-1 .green-btn{
+width: fit-content;
+}
+
+.landscape-box span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.landscape-box span .box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-right a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    background: #C1F7D5;
+    border-radius: 100px;
+}
+
+
+#hunger-issue .col-2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hunger-issue-center {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -35px;
+}
+
+#hunger-issue-center .box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+#did-you-know-stamp .rectangle {
+    position: relative;
+    left: 2vw;
+    top: -1vw;
+}
+
+
+
+#hunger-issue .col-1 img {
+    width: 30vw;
+}
+
+
+
+#hunger-issue .landscape-box .regular {
+    font: lighter 1.5vw/2vw Helvetica;
+}
+
+
+#hunger-issue .box-right img {
+    width: 2vw;
+}
+
+#hunger-issue .box-right a:nth-child(2) img {
+    width: 1vw;
+}
+
+
+
+
+/*----------hunger-issues-ends------------------*/
+
+
+
 #stories {
     height: auto;
     padding: 50 0 100 0;
@@ -300,7 +431,7 @@ a{
 
 #stories .col-2 .rectangle{
     position: relative;
-    top: 35px;
+    top: 55px;
     left: 69px;
 }
 
