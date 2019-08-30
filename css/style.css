@@ -278,13 +278,15 @@ a{
 }
 
 .landscape-box{
-    height: 15vw;
+    height: auto;
     width: 40vw;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 0 50 0;
+    position: relative;
+    padding: 0 0 20 0;
 }
 
 #hunger-issue .box-left strong{
@@ -345,7 +347,7 @@ width: fit-content;
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: -35px;
+    top: 20px;
 }
 
 #hunger-issue-center .box-right{
@@ -354,12 +356,16 @@ width: fit-content;
     justify-content: space-evenly;
 }
 
+#did-you-know-stamp {
+    display: flex;
+    flex-direction: column;
+}
 
 
 #did-you-know-stamp .rectangle {
-    position: relative;
+    position: absolute;
     left: 2vw;
-    top: -1vw;
+    top: -3vw;
 }
 
 

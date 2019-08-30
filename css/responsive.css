@@ -1,5 +1,6 @@
 @media screen and (max-width:768px){
 
+
     header nav {
         flex-direction: column;
         align-items: unset;
@@ -50,6 +51,10 @@
     }
 
 
+    #take-action .container div {
+        justify-content: space-between;
+    }
+
 
 
     #take-action .container .take-action-box {
@@ -88,22 +93,31 @@
 
 
     #hunger-issue-center {
-        top: -15;
+        top: 2;
     }
 
 
     .landscape-box {
         margin: 0 0 20 0;
+        position: relative;
     }
 
 
     #hunger-issue .rectangle {
             font: lighter 1vw/1vw Helvetica;
-            top: -10;
+            position: absolute;
+            top: -19px;
     }
 
 
 
+    #did-you-know-stamp {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/* 
 
     #what-we-do {
         height: auto;
@@ -149,11 +163,6 @@
         width: 35vw;
     }
 
-
-    /* .portrait-box p {
-        width: 80%;
-    } */
-
     .portrait-box .regular {
         font: lighter 2.5vw/3vw Helvetica;
         width: 44%;
@@ -178,7 +187,7 @@
         justify-content: center;
         border-radius: 100px;
         font: bold 3vw/1vw helvetica;
-    }
+    } */
 
 
 
