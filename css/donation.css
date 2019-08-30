@@ -58,7 +58,7 @@ section{
     background: transparent url('../img/annie-spratt-427340-unsplash-donation-d.png') 0% 0% no-repeat;
     background-size: cover;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 50;
     color: #FFFFFF;
 }
 
@@ -170,28 +170,6 @@ select::-ms-expand {
 
 
 
-/*-----------xxxxxx---------xxxxxx---------------*/
-
-/* @media screen and (max-width:1440px){
-
-
-    .form-upper .row-1 .col-1,.col-2 input[type=text]{
-        width: 15vw;
-    }
-
-    .form-upper .row-3 .col-1,.col-3 input[type=text]{
-        width: 12vw;
-    }
-
-    .form-upper .row-3 select{
-        width: 5vw;
-    }
-
-    .form-lower .row-6 input[type=text]{
-        width: 8vw;
-    }
-
-} */
 
 @media screen and (max-width:768px){
 
@@ -228,6 +206,35 @@ form{
 }
 
 
+
+footer .container div strong {
+    font: bold 2vw/4vw Helvetica;
+}
+
+
+footer .container div{
+    flex-wrap: wrap;
+    width: 45%;
+    align-items: unset;
+}
+
+footer .container{
+    align-items: normal;
+}
+
+footer .container div p:nth-child(4) {
+    position: relative;
+    top: -10px;
+
+}
+
+
+footer .logo {
+    width: 15vw;
+    font: Bold 3vw/4vw Helvetica;
+}
+
+
 }
 
 @media screen and (max-width:376px){
@@ -236,6 +243,11 @@ form{
     .logo {
         width: 20vw;
         font: Bold 1.5vw/3vw Helvetica;
+    }
+
+    footer .logo {
+        width: 20vw;
+        font: Bold 4vw/5vw Helvetica;
     }
 
   
@@ -263,6 +275,103 @@ form{
     form .form-lower button {
         padding: 2vw 2vw 2vw 2vw;
     }
+    
+
+
+
+    footer .container {
+        margin-top: 0;
+    }
+
+    footer .container div {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        position: relative;
+    }
+
+
+    footer .container div p {
+        font: lighter 3vw/4vw Helvetica;
+        width: 20vw;
+    }
+
+    footer .container div strong {
+        font: bold 3vw/5vw Helvetica;
+    }
+
+
+    footer .container div p:nth-child(4) {
+        font: lighter 5vw/7vw flood-std;
+    }
+ 
+
+    footer .container div p:nth-child(3){
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 130px;
+    } 
+
+
+    footer {
+        padding: 20 0 20 0;
+    }
+
+
+
+} 
+
+
+
+@media screen and (max-width:320px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 110;
+    }
+
+}
+
+@media screen and (max-width:290px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 100;
+    }
+
+}
+
+@media screen and (max-width:230px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 80;
+    }
+
+}
+
+
+@media screen and (max-width:150px){
+
+
+    footer .container div p:nth-child(3) {
+        position: absolute;
+        align-self: flex-start;
+        left: -55vw;
+        top: 70;
+    }
+
+
     
 
 }
