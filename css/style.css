@@ -210,8 +210,12 @@ a{
 
 }
 
+#what-we-do .green-btn {
+    padding: 10 20 10 20;
+}
+
 #what-we-do .container .bold{
-    font: Bold 2.8em/4rem Helvetica;
+    font: Bold 2.8rem/4rem Helvetica;
     letter-spacing: 0;
     color: #FFFFFF;
 }
@@ -260,17 +264,12 @@ a{
 
 
 
-
-
-
-
-
-
 #hunger-issue {
     background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
     height: auto;
     display: flex;
     padding: 50 0 10 0;
+    background-size: cover;
 }
 
 #hunger-issue .col-1 {
@@ -372,6 +371,7 @@ width: fit-content;
 
 #hunger-issue .col-1 img {
     width: 30vw;
+    margin-bottom: 2rem;
 }
 
 

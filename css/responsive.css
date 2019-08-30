@@ -1,3 +1,15 @@
+@media screen and (max-width:1440px){
+
+
+    .rectangle {
+        font: lighter 1.2vw/2vw Helvetica;
+        width: 10vw;
+    }
+
+}
+
+
+
 @media screen and (max-width:768px){
 
 
@@ -17,7 +29,7 @@
     }
 
     a{
-        font: Lighter 1.5vw/1vw Helvetica;
+        font: Lighter 2vw/3vw Helvetica;
     }
 
     .green-btn{
@@ -27,6 +39,7 @@
 
     .rectangle {
         width: 15vw;
+        font: lighter 2vw/3vw Helvetica;
     }
 
     #banner {
@@ -48,6 +61,16 @@
 
     #banner .container #banner-box p a {
         font: lighter 2vw/4vw Helvetica;
+    }
+
+
+    #banner-box div {
+        top: -5vw;
+    }
+
+
+    #take-action .container {
+        top: -5vw;
     }
 
 
@@ -87,13 +110,13 @@
         font: Bold 2vw/3vw Helvetica;
     }
 
-    #hunger-issue .box-left p {
+    #hunger-issue .box-left .rectangle {
         font: lighter 2vw/3vw Helvetica;
     }
 
 
     #hunger-issue-center {
-        top: 2;
+        top: 10;
     }
 
 
@@ -104,9 +127,9 @@
 
 
     #hunger-issue .rectangle {
-            font: lighter 1vw/1vw Helvetica;
-            position: absolute;
-            top: -19px;
+        font: lighter 1.5vw/2vw Helvetica;
+        position: absolute;
+        top: -25;
     }
 
 
@@ -117,10 +140,11 @@
     }
 
 
-/* 
+
 
     #what-we-do {
         height: auto;
+        padding: 50 0 0 0;
     }
 
     .what-we-do-box {
@@ -129,8 +153,8 @@
 
     #what-we-do .container .portrait-box {
         width: auto;
-        height: 37vw;
-        margin-bottom: 100;
+        height: auto;
+        margin-bottom: 5em;
     }
 
     #what-we-do .container .portrait-box div {
@@ -139,6 +163,10 @@
         left: 0;
     }
 
+
+    #what-we-do .container .bold {
+        font: Bold 2rem/3rem Helvetica;
+    }
 
 
     #what-we-do .portrait-box .col-1{
@@ -155,6 +183,8 @@
     #what-we-do .portrait-box .col-2{
         display: flex;
         flex-direction: row-reverse;
+        position: relative;
+        top: 35px;
         
     }
 
@@ -174,6 +204,10 @@
         font: Bold 3vw/4vw Helvetica;
     }
 
+    #what-we-do .green-btn {
+        padding: 0 20 0 20;
+    }
+
 
     #what-we-do .container .portrait-box a{
         position: relative;
@@ -187,19 +221,21 @@
         justify-content: center;
         border-radius: 100px;
         font: bold 3vw/1vw helvetica;
-    } */
+    } 
+
 
 
 
 
     #stories {
         height: auto;
+        padding: 0;
     }
 
     #stories .container {
         flex-direction: column-reverse;
         align-items: baseline;
-        padding-bottom: 50;
+        padding-bottom: 0;
     }
 
     #stories .col-1 {
@@ -242,7 +278,7 @@
 
     #stories .col-2 .rectangle {
         font: lighter 2vw/2vw Helvetica;
-            top: 35;
+            top: 30;
     }
 
 
@@ -317,11 +353,11 @@
     }
 
 
+
+
+
+
 }
-
-
-
-
 
 
 
@@ -509,7 +545,6 @@
 
 
 
-
     #what-we-do {
         padding: 20 0 0 0;
     }
@@ -579,13 +614,21 @@
         align-items: center;
         text-align: center;
         display: flex;
+        top: unset;
     }
     
     #what-we-do .container .portrait-box a {
         position: unset;
+        height: 10vw;
     }
 
 
+    .what-we-do-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50;
+    }
+    
 
 
 
@@ -626,17 +669,42 @@
 
 
     #hunger-issue .box-left strong {
-        font: Bold 4vw/5vw Helvetica;
+        font: Bold 6vw/8vw Helvetica;
     }
 
     #hunger-issue .landscape-box .regular {
-        font: lighter 3vw/4vw Helvetica;
+        font: lighter 3.5vw/4vw Helvetica;
     }
 
 
     #did-you-know-stamp .rectangle {
-        top: -5vw;
-        left: 17vw;
+        top: -6vw;
+        left: 25vw;
+    }
+
+    #hunger-issue .rectangle {
+        font: lighter 2.5vw/2vw Helvetica;
+        width: 25vw;
+    }
+
+
+    #hunger-issue-center .box-right {
+        justify-content: space-around;
+    }
+
+
+
+    .box-right a {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #hunger-issue .box-right img {
+        width: 4vw;
+    }
+
+    #hunger-issue .box-right a:nth-child(2) img {
+        width: 2vw;
     }
 
 
@@ -648,6 +716,7 @@
 
     #stories .container {
         align-items: center;
+        padding-bottom: 5rem;
     }
 
     #stories .col-1 {
@@ -655,11 +724,11 @@
         flex-direction: column;
         align-items: center;
         left: unset;
-        top: -70;
+        top: 0;
     }
 
     #stories .col-2 {
-        margin-bottom: 10;
+        margin-bottom: 20;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -684,6 +753,7 @@
     #blue-box p {
         font: bold 6vw/8vw Helvetica;
         text-align: center;
+        width: 70vw;
     }
 
     #blue-box a {
@@ -693,8 +763,13 @@
 
     #stories .col-2 .rectangle {
         position: relative;
-        top: 8vw;
+        top: 7vw;
         left: unset;
+    }
+
+    #stories .col-2 .rectangle {
+        font: lighter 3vw/3vw Helvetica;
+        width: 30vw;
     }
 
     #stories .col-1 a {
@@ -713,13 +788,9 @@
     }
 
 
-    #stories .container {
-      padding-bottom: 0;
-    }
-
-
     #save-future{
         height: 400vw;
+        padding: 10 0 50 0;
     }
 
     .save-future-upper, .save-future-lower {
@@ -758,7 +829,7 @@
 
 
     #save-future .bolder-w {
-        font: Bold 5vw/6vw Helvetica;
+        font: Bold 6vw/7vw Helvetica;
         color: #FFFFFF;
         text-align: center;
     }
@@ -806,7 +877,7 @@
 
     #subscribe input[type=text] {
         width: 60%;
-        font: lighter 4vw/1vw Helvetica;
+        font: lighter 3vw/1vw Helvetica;
     }
 
     #subscribe input[type=submit] {
