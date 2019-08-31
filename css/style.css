@@ -32,10 +32,10 @@ header .container{
 }
 
 .logo {
-    font: Bold 1.5vw/2vw Helvetica;
+    font: Bold 1.5rem/2rem Helvetica;
     letter-spacing: 0;
     color: #354463;
-    width: 11vw;
+    width: 12vw;
 }
 
 ul{
@@ -51,7 +51,7 @@ li{
 a{
     text-decoration: none;
     color: #354463;
-    font: Lighter 1.2vw/1vw Helvetica;
+    font: Lighter 1rem/1rem Helvetica;
 }
 
 
@@ -62,18 +62,18 @@ a{
 
 
 .bolder-w{
-    font: Bold 3vw/4vw Helvetica;
+    font: Bold 3rem/4rem Helvetica;
     color:#FFFFFF;
 }
 
 
 .green-btn{
     background: #C1F7D5;
-    font: bold 1.2vw/3vw Helvetica;
+    font: bold 1rem/3rem Helvetica;
     border-radius: 100px;
     text-align: center;
     width: auto;
-    padding: 0 10 0 10;
+    padding: 0 1rem 0 1rem;
     white-space: nowrap;
 }
 
@@ -83,7 +83,7 @@ a{
     height: auto;
     background: transparent url('../img/annie-spratt-135307-unsplash-d.png') 0% 0% no-repeat;
     background-size: cover;
-    padding: 100;
+    padding: 8rem;
     display: flex;
 }
 
@@ -106,30 +106,30 @@ a{
 }
 
 .rectangle{
-    font: lighter 1.2vw/3vw Helvetica;
+    font: lighter 1rem/2rem Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 15vw;
+    width: 10vw;
     height: auto;
     letter-spacing: 0.56px;
     color:white;
-    padding: 10;
+    padding: 0.5rem;
     background: #354463 0% 0% padding-box;
     text-transform: uppercase;
     white-space: nowrap;
 }
 
 .rectangle-w{
-    font: lighter 2vw/3vw Helvetica;
+    font: lighter 1rem/2rem Helvetica;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 15vw;
+    width: 10vw;
     height: auto;
     letter-spacing: 0.56px;
     color: #354463;
-    padding: 10;
+    padding: 0.5rem;
     background: #FFFFFF 0% 0% padding-box;
     text-transform: uppercase;
     white-space: nowrap;
@@ -137,7 +137,7 @@ a{
 
 
 #banner-box .bold{
-    font: Bold 3vw/4vw Helvetica;
+    font: Bold 2rem/3rem Helvetica;
 }
 
 #banner-box div{
@@ -173,7 +173,7 @@ a{
 
 #take-action .container div p strong {
     display: block;
-    font: Bold 2vw/4vw Helvetica;
+    font: Bold 1.5rem/3rem Helvetica;
     letter-spacing: 0;
     color: #354463;
 }
@@ -181,7 +181,7 @@ a{
 
 #take-action .container div p {
     width: 18vw;
-    font: lighter 1.2vw/1.5vw Helvetica;
+    font: lighter 1.1rem/1.5rem Helvetica;
     color:#354463;
 }
 
@@ -198,9 +198,8 @@ a{
 #what-we-do {
     background: #354463;
     height: auto;
-    padding: 100;
     display: flex;
-    padding: 100 0 100 0;
+    padding: 5rem 0 5rem 0;
     
 }
 
@@ -211,7 +210,7 @@ a{
 }
 
 #what-we-do .green-btn {
-    padding: 10 20 10 20;
+    padding: 1rem;
 }
 
 #what-we-do .container .bold{
@@ -231,7 +230,7 @@ a{
 }
 
 #what-we-do .container strong{
-    font: Bold 2vw/2.5vw Helvetica;
+    font: Bold 2rem/2.5rem Helvetica;
     letter-spacing: 0;
     color: #354463;
    
@@ -245,7 +244,7 @@ a{
 .what-we-do-box{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 5rem;
 }
 
 .what-we-do-box .portrait-box div{
@@ -268,7 +267,7 @@ a{
     background: transparent url('../img/did-you-know-background.png') 0% 0% no-repeat;
     height: auto;
     display: flex;
-    padding: 50 0 10 0;
+    padding: 5rem 0 3rem 0;
     background-size: cover;
 }
 
@@ -283,13 +282,13 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 50 0;
+    margin: 0 0 3rem 0;
     position: relative;
-    padding: 0 0 20 0;
+    padding: 0 0 1rem 0;
 }
 
 #hunger-issue .box-left strong{
-    font: Bold 3vw/4vw Helvetica;
+    font: Bold 2rem/2.5rem Helvetica;
     color:#354463;
 }
 #hunger-issue .box-left {
@@ -346,7 +345,7 @@ width: fit-content;
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 20px;
+    top: 20;
 }
 
 #hunger-issue-center .box-right{
@@ -377,7 +376,7 @@ width: fit-content;
 
 
 #hunger-issue .landscape-box .regular {
-    font: lighter 1.5vw/2vw Helvetica;
+    font: lighter 1.3rem/2rem Helvetica;
 }
 
 
@@ -405,6 +404,7 @@ width: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0 0 1rem 0;
 }
 
 #blue-box{
@@ -415,30 +415,32 @@ width: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3vw;
+    padding: 2rem;
 }
 
-#blue-box p{
-    font: bold 1.9vw/3vw Helvetica;
+#blue-box p {
+    font: bold 1.5rem/2.5rem Helvetica;
     letter-spacing: 0;
 }
 
-#blue-box a{
-    font: lighter 1.2vw/1vw Helvetica;
+#blue-box a {
+    font: lighter 1rem/1rem Helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
+    position: relative;
+    top: 15;
 }
 
-#blue-box div{
-    width: auto;
-    height: 21vw;;
+#blue-box div {
+    padding: 0rem 0 3rem 0;
+    height: auto;
 }
 
 #stories .col-2 .rectangle{
     position: relative;
-    top: 55px;
-    left: 69px;
+    top: 45;
+    left: 70;
 }
 
 #stories .col-2 img{
@@ -447,18 +449,20 @@ width: fit-content;
 
 #stories .col-1 {
     position: relative;
-    left: 50;
-    top: 40;
+    left: 15;
+    top: 60;
 }
 
-#stories .col-1 a{
+/* #stories .col-1 a{
     position: relative;
-    bottom:-50;
-}
+    top: 15;
+} */
 
 
 #stories .green-btn {
     padding: 1vw 2vw 1vw 2vw;
+    position: relative;
+    top: 100;
 }
 
 
@@ -469,38 +473,38 @@ width: fit-content;
 #save-future {
     height: auto;
     background: #354463;
-    padding: 50 0 100 0;
+    padding: 0rem 0 5rem 0;
 }
 
 #save-future .green-btn {
-    padding: 10 20 10 20;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 
-#save-future .container .regular{
-    font: lighter 5vw/7vw flood-std;
+#save-future .container .regular {
+    font: lighter 4rem/6rem flood-std;
     letter-spacing: 0;
     color: #FFFFFF;
     width: 80%;
 }
 
-.save-future-lorem{
-    font: Lighter 2vw/3vw Helvetica;
+.save-future-lorem {
+    font: Lighter 1.2rem/2rem Helvetica;
     letter-spacing: -0.4px;
     color: #FFFFFF;
 }
 
-#save-future .row-1,.row-2{
+#save-future .row-1,.row-2 {
     width: 30vw;
     height: auto;
 }
 
-.save-future-upper img{
+.save-future-upper img {
     width: 40vw;
     height: 40vw;
 }
 
-.save-future-lower img{
+.save-future-lower img {
     width: 40vw;
     height: 40vw;
 }
@@ -508,7 +512,7 @@ width: fit-content;
 .save-future-upper, .save-future-lower{
     display: flex;
     justify-content: space-between;
-    margin: 100 0 0 0;
+    margin: 5rem 0 0 0;
 }
 
 
@@ -533,19 +537,19 @@ width: fit-content;
 }
 
 #subscribe p{
-    font: bold 2vw/3vw Helvetica;
+    font: bold 1.9rem/2.5rem Helvetica;
     letter-spacing: 0;
     color: #354463;
-    width: 50%;
+    width: 55%;
 }
 
 #subscribe input[type=text]{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 100px;
-    padding: 10;
+    padding: 1rem;
     width: 60%;
     color: #354463;
-    font: lighter 1.2vw/1vw Helvetica;
+    font: lighter 1rem/1rem Helvetica;
     border-style: solid;
     border: none;
 }
@@ -553,11 +557,10 @@ width: fit-content;
 #subscribe input[type=submit]{
     background: #354463 0% 0% no-repeat padding-box;
     border-radius: 100px;
-    padding: 10px;
     color: #C1F7D5;
-    font: bold 1.5vw/1vw Helvetica;
-    padding-left: 20px;
-    padding-right: 20px;
+    font: bold 1.2rem/1rem Helvetica;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border-style: solid;
     border: none;
 }
@@ -577,12 +580,12 @@ width: fit-content;
 
 
 
-footer{
+footer {
     height: auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 50 0 50 0;
+   padding: 2rem 0 2rem 0;
 }
 
 footer .container{
@@ -599,7 +602,7 @@ footer .container div{
 }
 
 footer .container div strong{
-    font: bold 1.2vw/3vw Helvetica;
+    font: bold 1.2rem/3rem Helvetica;
     color: #354463;
     letter-spacing: 0.56px;
     text-decoration: underline;
@@ -607,11 +610,12 @@ footer .container div strong{
 }
 
 footer .container div p{
-    font: lighter 1.2vw/1.5vw Helvetica;
+    font: lighter 1.2rem/1.5rem Helvetica;
     width: 14vw;
     color: #354463;
 }
 
 footer .container div p:nth-child(4){
-    font: lighter 3vw/3.5vw flood-std;
+    font: lighter 2.5rem/3rem flood-std;
+    text-align: right;
 }
