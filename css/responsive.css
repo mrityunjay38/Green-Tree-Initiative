@@ -16,8 +16,7 @@
     }
 
     .logo{
-        font: Bold 2.5vw/3vw Helvetica;
-        width: 19vw;
+        width: 24vw;
     }
 
     ul{
@@ -25,18 +24,17 @@
         width: 70%;
     }
 
-    a{
+    /* a{
         font: Lighter 2vw/3vw Helvetica;
-    }
+    } */
 
-    .green-btn{
+    /* .green-btn{
         font: bold 2vw/5vw Helvetica;
         padding: 0 20 0 20;
-    }
+    } */
 
     .rectangle {
         width: 15vw;
-        font: lighter 2vw/3vw Helvetica;
     }
 
     #banner {
@@ -57,7 +55,7 @@
     }
 
     #banner .container #banner-box p a {
-        font: lighter 2vw/4vw Helvetica;
+        font: lighter 1rem/2rem Helvetica;
     }
 
 
@@ -81,13 +79,13 @@
         flex-direction: column;
     }
 
-
+/* 
     #take-action .container div p strong {
     font: Bold 3vw/5vw Helvetica;
-    }
+    } */
 
     #take-action .container div p {
-        font: lighter 2vw/3vw Helvetica;
+        /* font: lighter 2vw/3vw Helvetica; */
         width: 30vw;
     }
 
@@ -103,9 +101,9 @@
         padding: 15 30 15 30;
     }
 
-    #hunger-issue .box-left strong {
+    /* #hunger-issue .box-left strong {
         font: Bold 2vw/3vw Helvetica;
-    }
+    } */
 
     #hunger-issue .box-left .rectangle {
         font: lighter 2vw/3vw Helvetica;
@@ -124,11 +122,16 @@
 
 
     #hunger-issue .rectangle {
-        font: lighter 1.5vw/2vw Helvetica;
+        font: lighter 1rem/2rem Helvetica;
         position: absolute;
-        top: -25;
+        top: -42;
+        width: 19vw;
     }
 
+
+    #hunger-issue .landscape-box .regular {
+        font: lighter 1rem/1.5rem Helvetica;
+    }
 
 
     #did-you-know-stamp {
@@ -191,15 +194,15 @@
     }
 
     .portrait-box .regular {
-        font: lighter 2.5vw/3vw Helvetica;
+        font: lighter 1.2rem/2rem Helvetica;
         width: 44%;
         position: relative;
         bottom: 75;
     }
 
-    #what-we-do .container strong {
+    /* #what-we-do .container strong {
         font: Bold 3vw/4vw Helvetica;
-    }
+    } */
 
     #what-we-do .green-btn {
         padding: 0 20 0 20;
@@ -217,7 +220,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 100px;
-        font: bold 3vw/1vw helvetica;
+        font: bold 1.5rem/1rem helvetica;
     } 
 
 
@@ -259,13 +262,13 @@
     }
 
     #blue-box p {
-        font: bold 2.5vw/3.5vw Helvetica;
-        width: 55vw;
+        /* font: bold 2.5vw/3.5vw Helvetica; */
+        width: 60vw;
     }
     
-    #blue-box a {
+    /* #blue-box a {
         font: lighter 1.5vw/0vw Helvetica;
-    }
+    } */
 
 
     #stories .col-1 a {
@@ -274,8 +277,8 @@
 
 
     #stories .col-2 .rectangle {
-        font: lighter 2vw/2vw Helvetica;
-            top: 30;
+        /* font: lighter 2vw/2vw Helvetica; */
+        top: 42;
     }
 
 
@@ -285,7 +288,6 @@
 
     #save-future .rectangle-w {
         width: 20vw;
-        font: lighter 2vw/2vw Helvetica;
     }
 
 
@@ -297,6 +299,11 @@
         padding: 10;
     }
 
+
+    .bolder-w {
+        font: Bold 2rem/2rem Helvetica;
+
+    }
 
 
 
@@ -312,30 +319,34 @@
 
 
     #subscribe p {
-        font: bold 2.8vw/3vw Helvetica;
+        font: bold 1.3rem/2rem Helvetica;
         width: 70%;
     }
 
     #subscribe input[type=text] {
         width: 70%;
-        font: lighter 2vw/1vw Helvetica;
+        /* font: lighter 2vw/1vw Helvetica; */
     }
 
     #subscribe input[type=submit] {
-        font: bold 2vw/1vw Helvetica;
+        /* font: bold 2vw/1vw Helvetica; */
         white-space: nowrap;
     }
 
 
+    footer .container div p {
+        font: lighter 1rem/1.5rem Helvetica;
+    }
+
 
     footer .container div strong {
-        font: bold 2vw/4vw Helvetica;
+        font: bold 1rem/2rem Helvetica;
     }
 
 
     footer .container div{
         flex-wrap: wrap;
-        width: 45%;
+        width: 52%;
         align-items: unset;
     }
 
@@ -435,7 +446,7 @@
 
     ul{
         flex-direction: column;
-        width: 35%;
+        width: 40%;
         margin: 0;
     }
    
@@ -445,8 +456,8 @@
     }
 
     .logo {
-        font: Bold 5vw/7vw Helvetica;
-        width: 45%;
+        font: Bold 1rem/1.5rem Helvetica;
+        width: 40%;
     }
 
     li{
@@ -454,12 +465,12 @@
     }
 
     a {
-        font: Lighter 3.5vw/4vw Helvetica;
+        font: Lighter .9rem/1rem Helvetica;
     }
     
 
     .green-btn {
-        font: bold 4vw/10vw Helvetica;
+        /* font: bold 4vw/10vw Helvetica; */
         padding: 0 20 0 20;
         width: 90%;
     }
@@ -502,15 +513,15 @@
 
 
     #banner-box .bold {
-        font: Bold 6vw/8vw Helvetica;
+        font: Bold 1.5rem/2rem Helvetica;
         width: 75vw;
         height: auto;
     }
 
      .rectangle {
-        font: lighter 5vw/6vw Helvetica;
+       
         width: 35vw;
-        padding: 10;
+     
     }
 
     .rectangle-w {
@@ -519,7 +530,7 @@
 
 
     #banner .container #banner-box p a {
-        font: lighter 4vw/5vw Helvetica;
+        font: lighter 1rem/1.5rem Helvetica;
     }
 
 
@@ -532,12 +543,13 @@
     }
 
     
-    #take-action .container div p strong {
+    /* #take-action .container div p strong {
         font: Bold 4vw/6vw Helvetica;
-    }
+    } */
     
-        #take-action .container div p {
-        font: lighter 3vw/4vw Helvetica;
+    #take-action .container div p {
+        font: lighter 1rem/1.5rem Helvetica;
+
     }
 
 
@@ -553,7 +565,7 @@
     }
 
     #what-we-do .container .bold {
-        font: Bold 7vw/8vw Helvetica;
+        font: Bold 1.5rem/2rem Helvetica;
         width: auto;
         text-align: center;
     }
@@ -574,7 +586,7 @@
     }
 
     #what-we-do .container strong {
-        font: Bold 1.2vw/1.5vm Helvetica;
+        font: Bold 1.2rem/1.5rem Helvetica;
     }
 
 
@@ -594,14 +606,10 @@
     }
 
 
-    #what-we-do .container strong {
-        font: Bold 5vw/6vw Helvetica;
-    }
-
     .portrait-box .regular {
         bottom: unset;
-        font: lighter 4vw/5vw Helvetica;
-        width: 80%;
+        font: lighter 1rem/1.5rem Helvetica;
+        width: 90%;
     }
 
 
@@ -617,6 +625,8 @@
     #what-we-do .container .portrait-box a {
         position: unset;
         height: 10vw;
+        font: bold 1.2rem/2rem helvetica;
+        padding: .5rem 3rem .5rem 3rem;
     }
 
 
@@ -674,14 +684,19 @@
     }
 
 
-    #did-you-know-stamp .rectangle {
-        top: -6vw;
-        left: 25vw;
-    }
+     #did-you-know-stamp {
+         justify-content: center;
+         align-items: center;
+    } 
 
     #hunger-issue .rectangle {
-        font: lighter 2.5vw/2vw Helvetica;
-        width: 25vw;
+        font: lighter 1rem/2rem Helvetica;
+        width: auto;
+        position: unset;
+    }
+
+    #hunger-issue-center {
+        top: -25;
     }
 
 
@@ -727,6 +742,7 @@
     #stories .col-2 {
         margin-bottom: 20;
         align-items: center;
+        justify-content: center;
         display: flex;
         flex-direction: column;
     }
@@ -748,35 +764,34 @@
     }
 
     #blue-box p {
-        font: bold 6vw/8vw Helvetica;
+        font: bold 1.2rem/2rem Helvetica;
         text-align: center;
         width: 70vw;
     }
 
     #blue-box a {
-        font: lighter 3vw/5vw Helvetica;
+        font: lighter 1rem/1.5rem Helvetica;
     }
 
 
     #stories .col-2 .rectangle {
         position: relative;
-        top: 7vw;
+        top: 10vw;
         left: unset;
-    }
-
-    #stories .col-2 .rectangle {
-        font: lighter 3vw/3vw Helvetica;
+        font: lighter 1rem/1rem Helvetica;
         width: 30vw;
     }
 
     #stories .col-1 a {
         position: unset;
+        text-align: center;
     }
 
     #stories .col-1 .green-btn {
         position: relative;
         bottom: -25;
-        width: 45%; 
+        width: 45%;
+        top: unset; 
     }
 
 
@@ -787,7 +802,7 @@
 
     #save-future{
         height: 400vw;
-        padding: 10 0 50 0;
+        padding: 10 0 100 0;
     }
 
     .save-future-upper, .save-future-lower {
@@ -821,7 +836,7 @@
         flex-direction: column;
         align-items: center;
         position: relative;
-        bottom: 87vw;
+        bottom: 90vw;
     }
 
 
@@ -839,9 +854,10 @@
 
 
     #save-future .rectangle-w {
-        font: lighter 3vw/1vw Helvetica;
+        font: lighter 1rem/2rem Helvetica;
         white-space: nowrap;
         margin-bottom: 85vw;
+        width: 40%;
     }
 
     #save-future .green-btn {
@@ -910,7 +926,7 @@
 
 
     footer .container div p:nth-child(4) {
-        font: lighter 5vw/7vw flood-std;
+        font: lighter 1.5rem/2rem flood-std;
     }
  
 
